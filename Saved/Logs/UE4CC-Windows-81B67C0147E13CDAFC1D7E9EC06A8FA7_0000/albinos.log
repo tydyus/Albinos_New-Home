@@ -1,0 +1,224 @@
+﻿Log file open, 05/26/17 00:11:21
+LogInit:Display: Running engine for game: albinos
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(547362785) SRandInit(547362785).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087167
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.25-22.11.23:900][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-22.11.23:900][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.25-22.11.24:049][  0]LogInit: Computer: TYDYUS-PC
+[2017.05.25-22.11.24:049][  0]LogInit: User: Tydyus
+[2017.05.25-22.11.24:049][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.25-22.11.24:049][  0]LogInit: High frequency timer resolution =3.312789 MHz
+[2017.05.25-22.11.24:049][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.05.25-22.11.24:049][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.25-22.11.24:049][  0]LogMemory: Process Physical Memory: 263.70 MB used, 263.70 MB peak
+[2017.05.25-22.11.24:049][  0]LogMemory: Process Virtual Memory: 262.63 MB used, 262.63 MB peak
+[2017.05.25-22.11.24:049][  0]LogMemory: Physical Memory: 5507.12 MB used,  2667.32 MB free, 8174.44 MB total
+[2017.05.25-22.11.24:049][  0]LogMemory: Virtual Memory: 645.86 MB used,  2667.32 MB free, 134217728.00 MB total
+[2017.05.25-22.11.24:141][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.25-22.11.24:822][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.25-22.11.24:849][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560 Ti' (Feature Level 11_0)
+[2017.05.25-22.11.24:849][  0]LogD3D11RHI:       1233/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.25-22.11.24:850][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.25-22.11.24:850][  0]LogD3D11RHI:       0/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.25-22.11.24:850][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.25-22.11.24:854][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.25-22.11.24:854][  0]LogD3D11RHI:     GPU DeviceId: 0x1082 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.25-22.11.24:854][  0]LogWindows: EnumDisplayDevices:
+[2017.05.25-22.11.24:854][  0]LogWindows:    0. 'NVIDIA GeForce GTX 560 Ti' (P:1 D:1)
+[2017.05.25-22.11.24:854][  0]LogWindows:    1. 'NVIDIA GeForce GTX 560 Ti' (P:0 D:0)
+[2017.05.25-22.11.24:854][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.05.25-22.11.24:854][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560 Ti
+[2017.05.25-22.11.24:854][  0]LogD3D11RHI:   Driver Version: 364.72 (internal:10.18.13.6472, unified:364.72)
+[2017.05.25-22.11.24:854][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2017.05.25-22.11.24:854][  0]LogRHI: Texture pool is 863 MB (70% of 1233 MB)
+[2017.05.25-22.11.24:869][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.25-22.11.24:869][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.05.25-22.11.24:870][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.25-22.11.24:870][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.25-22.11.24:880][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.25-22.11.24:929][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Intermediate/Shaders/WorkingDirectory/6180/).
+[2017.05.25-22.11.24:929][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tydyus/AppData/Local/Temp/UnrealShaderWorkingDir/A51818584232FABB2ADC4785AE0C027C/'.
+[2017.05.25-22.11.24:930][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.25-22.11.26:461][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.25-22.11.26:543][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.25-22.11.26:608][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.25-22.11.26:676][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.25-22.11.26:752][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.25-22.11.26:833][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.25-22.11.26:906][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.25-22.11.26:969][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.25-22.11.27:020][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.25-22.11.27:221][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.25-22.11.27:292][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.25-22.11.27:352][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.25-22.11.27:412][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.25-22.11.27:473][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.25-22.11.27:542][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.25-22.11.27:722][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.25-22.11.27:722][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.25-22.11.27:772][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.25-22.11.27:944][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.25-22.11.27:990][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.25-22.11.28:052][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.25-22.11.28:116][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.25-22.11.28:181][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.25-22.11.28:265][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.25-22.11.28:265][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.25-22.11.28:935][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.25-22.11.34:203][  0]LogDerivedDataCache: Loaded boot cache 5.27s 50MB C:/Users/Tydyus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.25-22.11.34:203][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tydyus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.25-22.11.34:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.25-22.11.34:203][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.25-22.11.34:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.25-22.11.34:203][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.25-22.11.34:237][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.25-22.11.34:250][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tydyus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.25-22.11.34:260][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.25-22.11.34:386][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-22.11.34:386][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.25-22.11.40:061][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.25-22.11.40:064][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.25-22.11.40:445][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.25-22.11.40:512][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.25-22.11.40:573][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.25-22.11.40:573][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.25-22.11.40:573][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.25-22.11.43:472][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: albinos, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1571744082
+[2017.05.25-22.11.43:536][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.05.25-22.11.43:738][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.162811 seconds
+[2017.05.25-22.11.43:747][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.25-22.11.43:747][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.25-22.11.43:747][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.25-22.11.43:829][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.25-22.12.07:801][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.25-22.12.07:845][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.25-22.12.08:953][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.25-22.12.09:616][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.12.09:618][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.12.09:672][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.12.09:724][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.12.11:474][  0]LogEngine: Initializing Engine...
+[2017.05.25-22.12.11:475][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.25-22.12.11:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.25-22.12.11:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.25-22.12.12:118][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.25-22.12.12:129][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.25-22.12.12:139][  0]LogInit: FAudioDevice initialized.
+[2017.05.25-22.12.12:185][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/Tydyus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.25-22.12.12:193][  0]LogInit: Texture streaming: Enabled
+[2017.05.25-22.12.12:309][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.25-22.12.12:442][  0]LogInit: Transaction tracking system initialized
+[2017.05.25-22.12.12:894][  0]BlueprintLog: New page: Editor Load
+[2017.05.25-22.12.14:010][  0]LocalizationService: Info Localization service is disabled
+[2017.05.25-22.12.14:997][  0]LogConsoleResponse:Display: 
+[2017.05.25-22.12.15:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/' took 0.07s
+[2017.05.25-22.12.15:953][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.25-22.12.15:953][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.25-22.12.17:649][  0]SourceControl: Info Source control is disabled
+[2017.05.25-22.12.17:649][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.25-22.12.17:650][  0]LightingResults: New page: Lighting Build
+[2017.05.25-22.12.17:696][  0]MapCheck: New page: Map Check
+[2017.05.25-22.12.17:696][  0]LightingResults: New page: Lighting Build
+[2017.05.25-22.12.20:034][  0]LogBlueprint:Warning: [workshiptable_Blueprint] 'FirstPersonCamera' variable not found. Base class was probably changed.
+[2017.05.25-22.12.20:071][  0]LogBlueprint:Warning: [Compiler workshiptable_Blueprint] Warning Could not find a variable named "FirstPersonCamera" in 'workshiptable_Blueprint_C'.
+Make sure 'workshiptable_Blueprint_C' has been compiled for  Get FirstPersonCamera
+[2017.05.25-22.12.20:726][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.654 s
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: === Handled ensure: ===
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: 
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: Ensure condition failed: pContextTerm != nullptr [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\CallFunctionHandler.cpp] [Line: 384]
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: '/Game/workshiptable_Blueprint.workshiptable_Blueprint:EdGraph_3.K2Node_CallFunction_250' is missing a target input - if this is a server build, the input may be a cosmetic only property which was discarded (if this is the case, and this is expecting component variable try resaving.)
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: Stack: 
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B8B95E6
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B669B82
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B67B666
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000017C83D12
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000017C79FC3
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!0x00000000113ED004
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!0x00000000113E854B
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!0x00000000113EC2C6
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-KismetCompiler.dll!0x00000000113EB94D
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000019986AD9
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000019948A1A
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BE80C37
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BE5B086
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF5E5DA
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF3868E
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF52C11
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF37709
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF38ACB
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF551B6
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001C034D72
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001C034327
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF80CB4
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF7F9E5
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF80F05
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF7F9E5
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF7F828
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF422EA
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF7EA45
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF3AB6B
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001BF50B64
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001C034B2C
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000001C0342B7
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000019642D37
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000019633A25
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000196193F3
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000019E0AA15
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000198A9BCB
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000198A9816
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000019DBD0FE
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000019D80A4D
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000A337EA36
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000A337EBBA
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000A3390A29
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: UE4Editor.exe!0x00000000A33922B6
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: KERNEL32.DLL!0x000000004CB18102
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: ntdll.dll!0x000000004E4DC574
+[2017.05.25-22.12.20:727][  0]LogOutputDevice:Error: 
+[2017.05.25-22.12.20:735][  0]LogStats:                SubmitErrorReport -  0.000 s

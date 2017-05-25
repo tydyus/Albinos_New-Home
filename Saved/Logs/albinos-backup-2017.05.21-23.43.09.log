@@ -1,0 +1,1042 @@
+﻿Log file open, 05/21/17 19:36:58
+LogInit:Display: Running engine for game: albinos
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-30719619) SRandInit(-30719619).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.086493
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.21-17.36.59:281][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.21-17.36.59:281][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.21-17.36.59:313][  0]LogInit: Computer: TYDYUS-PC
+[2017.05.21-17.36.59:313][  0]LogInit: User: Tydyus
+[2017.05.21-17.36.59:313][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.21-17.36.59:313][  0]LogInit: High frequency timer resolution =3.312789 MHz
+[2017.05.21-17.36.59:314][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.05.21-17.36.59:314][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.21-17.36.59:314][  0]LogMemory: Process Physical Memory: 263.45 MB used, 263.45 MB peak
+[2017.05.21-17.36.59:314][  0]LogMemory: Process Virtual Memory: 262.44 MB used, 262.44 MB peak
+[2017.05.21-17.36.59:314][  0]LogMemory: Physical Memory: 4591.27 MB used,  3583.17 MB free, 8174.44 MB total
+[2017.05.21-17.36.59:314][  0]LogMemory: Virtual Memory: 645.86 MB used,  3583.17 MB free, 134217728.00 MB total
+[2017.05.21-17.36.59:415][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.21-17.37.00:101][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.21-17.37.00:145][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560 Ti' (Feature Level 11_0)
+[2017.05.21-17.37.00:145][  0]LogD3D11RHI:       1233/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.21-17.37.00:147][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.21-17.37.00:147][  0]LogD3D11RHI:       0/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.21-17.37.00:147][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.21-17.37.00:152][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.21-17.37.00:152][  0]LogD3D11RHI:     GPU DeviceId: 0x1082 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.21-17.37.00:152][  0]LogWindows: EnumDisplayDevices:
+[2017.05.21-17.37.00:152][  0]LogWindows:    0. 'NVIDIA GeForce GTX 560 Ti' (P:1 D:1)
+[2017.05.21-17.37.00:152][  0]LogWindows:    1. 'NVIDIA GeForce GTX 560 Ti' (P:0 D:0)
+[2017.05.21-17.37.00:152][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.05.21-17.37.00:152][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560 Ti
+[2017.05.21-17.37.00:152][  0]LogD3D11RHI:   Driver Version: 364.72 (internal:10.18.13.6472, unified:364.72)
+[2017.05.21-17.37.00:152][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2017.05.21-17.37.00:152][  0]LogRHI: Texture pool is 863 MB (70% of 1233 MB)
+[2017.05.21-17.37.00:166][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.21-17.37.00:166][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.05.21-17.37.00:166][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.21-17.37.00:166][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.21-17.37.00:177][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.21-17.37.00:226][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Intermediate/Shaders/WorkingDirectory/10320/).
+[2017.05.21-17.37.00:226][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tydyus/AppData/Local/Temp/UnrealShaderWorkingDir/75E301FA4F2592A47B84808FC9CDBE91/'.
+[2017.05.21-17.37.00:226][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.21-17.37.01:487][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.21-17.37.01:550][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.21-17.37.01:612][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.21-17.37.01:675][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.21-17.37.01:739][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.21-17.37.01:805][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.21-17.37.01:869][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.21-17.37.01:934][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.21-17.37.01:987][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.21-17.37.02:048][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.21-17.37.02:114][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.21-17.37.02:174][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.21-17.37.02:238][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.21-17.37.02:314][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.21-17.37.02:388][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.21-17.37.02:513][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.21-17.37.02:513][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.21-17.37.02:557][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.21-17.37.02:665][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.21-17.37.02:707][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.21-17.37.02:769][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.21-17.37.02:833][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.21-17.37.02:893][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.21-17.37.02:958][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.21-17.37.02:958][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.21-17.37.03:475][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.21-17.37.03:529][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Tydyus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.21-17.37.03:530][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tydyus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.21-17.37.03:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.21-17.37.03:530][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.21-17.37.03:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.21-17.37.03:530][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.21-17.37.03:550][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.21-17.37.03:562][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tydyus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.21-17.37.03:572][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.21-17.37.03:573][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.21-17.37.03:573][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.21-17.37.03:926][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.21-17.37.03:930][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.21-17.37.04:180][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.21-17.37.04:232][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.21-17.37.04:286][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.21-17.37.04:286][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.21-17.37.04:286][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.21-17.37.04:937][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: albinos, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1571744082
+[2017.05.21-17.37.04:991][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.05.21-17.37.05:091][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.073949 seconds
+[2017.05.21-17.37.05:097][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.21-17.37.05:097][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.21-17.37.05:097][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.21-17.37.05:172][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.21-17.37.07:196][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.21-17.37.07:244][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.21-17.37.07:858][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.21-17.37.08:344][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.37.08:346][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.37.08:406][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.37.08:465][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.37.10:106][  0]LogEngine: Initializing Engine...
+[2017.05.21-17.37.10:107][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.21-17.37.10:222][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.21-17.37.10:222][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.21-17.37.10:369][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.21-17.37.10:380][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-17.37.10:387][  0]LogInit: FAudioDevice initialized.
+[2017.05.21-17.37.10:435][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Tydyus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.21-17.37.10:444][  0]LogInit: Texture streaming: Enabled
+[2017.05.21-17.37.10:560][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.21-17.37.10:669][  0]LogInit: Transaction tracking system initialized
+[2017.05.21-17.37.11:103][  0]BlueprintLog: New page: Editor Load
+[2017.05.21-17.37.12:143][  0]LocalizationService: Info Localization service is disabled
+[2017.05.21-17.37.12:980][  0]LogConsoleResponse:Display: 
+[2017.05.21-17.37.13:169][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.21-17.37.13:169][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.21-17.37.14:324][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/' took 0.03s
+[2017.05.21-17.37.14:373][  0]SourceControl: Info Source control is disabled
+[2017.05.21-17.37.14:373][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.21-17.37.14:373][  0]LightingResults: New page: Lighting Build
+[2017.05.21-17.37.14:418][  0]MapCheck: New page: Map Check
+[2017.05.21-17.37.14:418][  0]LightingResults: New page: Lighting Build
+[2017.05.21-17.37.21:847][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.21-17.37.21:999][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.21-17.37.22:014][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.21-17.37.22:067][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.411ms to complete.
+[2017.05.21-17.37.22:067][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 7.694
+[2017.05.21-17.37.22:137][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.21-17.37.22:752][  0]LogCollectionManager: Loaded 0 collections in 0.014991 seconds
+[2017.05.21-17.37.22:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Collections/' took 0.01s
+[2017.05.21-17.37.22:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/Developers/Tydyus/Collections/' took 0.01s
+[2017.05.21-17.37.22:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/Collections/' took 0.01s
+[2017.05.21-17.37.22:979][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.05.21-17.37.23:004][  0]LogContentBrowser: Native class hierarchy populated in 0.0219 seconds. Added 2245 classes and 453 folders.
+[2017.05.21-17.37.23:128][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.21-17.37.25:064][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.21-17.37.25:172][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.05.21-17.37.25:597][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.21-17.37.25:666][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.21-17.37.25:750][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.21-17.37.25:751][  0]LogLoad: (Engine Initialization) Total time: 29.68 seconds
+[2017.05.21-17.37.25:751][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
+[2017.05.21-17.37.25:751][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.21-17.37.25:751][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.21-17.37.25:760][  0]LogOcInput: OculusInput pre-init called
+[2017.05.21-17.37.25:808][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.21-17.37.25:809][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.21-17.37.25:813][  0]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.21-17.37.25:856][  0]LogSlate: Took 0.012073 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.21-17.37.26:516][  0]LogRenderer: Reallocating scene render targets to support 776x540 NumSamples 1 (Frame:2).
+[2017.05.21-17.37.26:516][  0]LogSlate: Took 0.032874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-17.37.27:056][  2]LogAssetRegistry: Asset discovery search completed in 22.0868 seconds
+[2017.05.21-17.37.27:057][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.05.21-17.37.27:057][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.05.21-17.38.00:917][468]LogEditorViewport: Clicking on Actor (context menu): FirstPersonCharacter_C (FirstPersonCharacter)
+[2017.05.21-17.38.27:444][240]MapCheck: New page: Map Check
+[2017.05.21-17.38.27:561][240]Cmd: MAP REBUILD ALLVISIBLE
+[2017.05.21-17.38.27:561][240]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.05.21-17.38.27:894][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.05.21-17.38.27:916][240]LogTemp:Display: Added material ShaderMap 0x0000026F9883E080 with Material 0x0000026F98838D00 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.27:920][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000026F9883E080
+[2017.05.21-17.38.27:922][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.05.21-17.38.27:924][240]LogTemp:Display: Added material ShaderMap 0x0000026F9883D980 with Material 0x0000026F98839C00 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.27:925][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, GameThreadShaderMap 0x0000026F9883D980
+[2017.05.21-17.38.27:928][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lamp, compiling. 
+[2017.05.21-17.38.27:929][240]LogTemp:Display: Added material ShaderMap 0x0000026F9883CB80 with Material 0x0000026F98839F00 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.27:931][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Lamp, GameThreadShaderMap 0x0000026F9883CB80
+[2017.05.21-17.38.27:962][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.05.21-17.38.27:963][240]LogTemp:Display: Added material ShaderMap 0x0000026F9887D600 with Material 0x0000026FED02C700 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.27:967][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, GameThreadShaderMap 0x0000026F9887D600
+[2017.05.21-17.38.27:971][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2017.05.21-17.38.27:972][240]LogTemp:Display: Added material ShaderMap 0x0000026F9887C800 with Material 0x0000026FED02E800 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.27:975][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Oak, GameThreadShaderMap 0x0000026F9887C800
+[2017.05.21-17.38.27:979][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2017.05.21-17.38.27:980][240]LogTemp:Display: Added material ShaderMap 0x0000026FD943EB00 with Material 0x0000026FED02E200 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.27:984][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Floor, GameThreadShaderMap 0x0000026FD943EB00
+[2017.05.21-17.38.27:988][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, compiling. 
+[2017.05.21-17.38.27:989][240]LogTemp:Display: Added material ShaderMap 0x0000026FD943F580 with Material 0x0000026FED02D600 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.27:993][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, GameThreadShaderMap 0x0000026FD943F580
+[2017.05.21-17.38.27:997][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2017.05.21-17.38.27:998][240]LogTemp:Display: Added material ShaderMap 0x0000026FD943DD00 with Material 0x0000026FD9544100 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:001][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Wall, GameThreadShaderMap 0x0000026FD943DD00
+[2017.05.21-17.38.28:005][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Poured, compiling. 
+[2017.05.21-17.38.28:007][240]LogTemp:Display: Added material ShaderMap 0x0000026FD983D600 with Material 0x0000026FD9545C00 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:010][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Concrete_Poured, GameThreadShaderMap 0x0000026FD983D600
+[2017.05.21-17.38.28:032][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_Old, compiling. 
+[2017.05.21-17.38.28:033][240]LogTemp:Display: Added material ShaderMap 0x0000026FD983E080 with Material 0x0000026FD9545F00 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:036][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Brick_Clay_Old, GameThreadShaderMap 0x0000026FD983E080
+[2017.05.21-17.38.28:040][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Steel, compiling. 
+[2017.05.21-17.38.28:041][240]LogTemp:Display: Added material ShaderMap 0x0000026FD983F900 with Material 0x0000026FD9546500 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:044][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Steel, GameThreadShaderMap 0x0000026FD983F900
+[2017.05.21-17.38.28:047][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2017.05.21-17.38.28:048][240]LogTemp:Display: Added material ShaderMap 0x0000026FED059600 with Material 0x0000026FD9546E00 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:050][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Chair, GameThreadShaderMap 0x0000026FED059600
+[2017.05.21-17.38.28:053][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.05.21-17.38.28:053][240]LogTemp:Display: Added material ShaderMap 0x0000026FED05A080 with Material 0x0000026FD9547A00 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:056][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Glass, GameThreadShaderMap 0x0000026FED05A080
+[2017.05.21-17.38.28:064][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
+[2017.05.21-17.38.28:065][240]LogTemp:Display: Added material ShaderMap 0x0000026FECFFD980 with Material 0x0000026FD9547400 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:068][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Walnut, GameThreadShaderMap 0x0000026FECFFD980
+[2017.05.21-17.38.28:071][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FPGun, compiling. 
+[2017.05.21-17.38.28:075][240]LogTemp:Display: Added material ShaderMap 0x0000026FECFFF900 with Material 0x0000026FD9547100 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:077][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_FPGun, GameThreadShaderMap 0x0000026FECFFF900
+[2017.05.21-17.38.28:091][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.05.21-17.38.28:096][240]LogTemp:Display: Added material ShaderMap 0x0000026F98E67900 with Material 0x0000026FD9971300 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:099][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_UE4Man_Body, GameThreadShaderMap 0x0000026F98E67900
+[2017.05.21-17.38.28:102][240]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.05.21-17.38.28:103][240]LogTemp:Display: Added material ShaderMap 0x0000026F98E66E80 with Material 0x0000026FD9973700 to ShaderMapsBeingCompiled
+[2017.05.21-17.38.28:106][240]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MatineeCam_mat, GameThreadShaderMap 0x0000026F98E66E80
+[2017.05.21-17.38.28:488][240]LogTemp:Display: Finished compile of shader map 0x0000026F9883E080
+[2017.05.21-17.38.28:488][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000026F9883E080, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.05.21-17.38.28:488][240]LogTemp:Display: Marking material as finished 0x0000026F98838D00
+[2017.05.21-17.38.28:512][240]LogTemp:Display: Finished compile of shader map 0x0000026F9883D980
+[2017.05.21-17.38.28:512][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 complete, GameThreadShaderMap 0x0000026F9883D980, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 as finished
+[2017.05.21-17.38.28:512][240]LogTemp:Display: Marking material as finished 0x0000026F98839C00
+[2017.05.21-17.38.28:514][240]LogTemp:Display: Finished compile of shader map 0x0000026F9883CB80
+[2017.05.21-17.38.28:514][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Lamp complete, GameThreadShaderMap 0x0000026F9883CB80, marking material FDebugViewModeMaterialProxy M_Lamp as finished
+[2017.05.21-17.38.28:514][240]LogTemp:Display: Marking material as finished 0x0000026F98839F00
+[2017.05.21-17.38.28:528][240]LogTemp:Display: Finished compile of shader map 0x0000026F9887D600
+[2017.05.21-17.38.28:528][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished complete, GameThreadShaderMap 0x0000026F9887D600, marking material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished as finished
+[2017.05.21-17.38.28:528][240]LogTemp:Display: Marking material as finished 0x0000026FED02C700
+[2017.05.21-17.38.28:638][240]LogTemp:Display: Finished compile of shader map 0x0000026FD943EB00
+[2017.05.21-17.38.28:638][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Floor complete, GameThreadShaderMap 0x0000026FD943EB00, marking material FDebugViewModeMaterialProxy M_Basic_Floor as finished
+[2017.05.21-17.38.28:638][240]LogTemp:Display: Marking material as finished 0x0000026FED02E200
+[2017.05.21-17.38.28:665][240]LogTemp:Display: Finished compile of shader map 0x0000026FD943DD00
+[2017.05.21-17.38.28:665][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Wall complete, GameThreadShaderMap 0x0000026FD943DD00, marking material FDebugViewModeMaterialProxy M_Basic_Wall as finished
+[2017.05.21-17.38.28:665][240]LogTemp:Display: Marking material as finished 0x0000026FD9544100
+[2017.05.21-17.38.28:796][240]LogTemp:Display: Finished compile of shader map 0x0000026FD943F580
+[2017.05.21-17.38.28:796][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker complete, GameThreadShaderMap 0x0000026FD943F580, marking material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker as finished
+[2017.05.21-17.38.28:796][240]LogTemp:Display: Marking material as finished 0x0000026FED02D600
+[2017.05.21-17.38.28:799][240]LogTemp:Display: Finished compile of shader map 0x0000026F9887C800
+[2017.05.21-17.38.28:799][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Oak complete, GameThreadShaderMap 0x0000026F9887C800, marking material FDebugViewModeMaterialProxy M_Wood_Oak as finished
+[2017.05.21-17.38.28:799][240]LogTemp:Display: Marking material as finished 0x0000026FED02E800
+[2017.05.21-17.38.28:952][240]LogTemp:Display: Finished compile of shader map 0x0000026FD983D600
+[2017.05.21-17.38.28:952][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Concrete_Poured complete, GameThreadShaderMap 0x0000026FD983D600, marking material FDebugViewModeMaterialProxy M_Concrete_Poured as finished
+[2017.05.21-17.38.28:952][240]LogTemp:Display: Marking material as finished 0x0000026FD9545C00
+[2017.05.21-17.38.28:967][240]LogTemp:Display: Finished compile of shader map 0x0000026FD983E080
+[2017.05.21-17.38.28:967][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Brick_Clay_Old complete, GameThreadShaderMap 0x0000026FD983E080, marking material FDebugViewModeMaterialProxy M_Brick_Clay_Old as finished
+[2017.05.21-17.38.28:967][240]LogTemp:Display: Marking material as finished 0x0000026FD9545F00
+[2017.05.21-17.38.29:054][240]LogTemp:Display: Finished compile of shader map 0x0000026FED059600
+[2017.05.21-17.38.29:054][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Chair complete, GameThreadShaderMap 0x0000026FED059600, marking material FDebugViewModeMaterialProxy M_Chair as finished
+[2017.05.21-17.38.29:054][240]LogTemp:Display: Marking material as finished 0x0000026FD9546E00
+[2017.05.21-17.38.29:068][240]LogTemp:Display: Finished compile of shader map 0x0000026FD983F900
+[2017.05.21-17.38.29:068][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Steel complete, GameThreadShaderMap 0x0000026FD983F900, marking material FDebugViewModeMaterialProxy M_Metal_Steel as finished
+[2017.05.21-17.38.29:068][240]LogTemp:Display: Marking material as finished 0x0000026FD9546500
+[2017.05.21-17.38.29:093][240]LogTemp:Display: Finished compile of shader map 0x0000026FED05A080
+[2017.05.21-17.38.29:093][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Glass complete, GameThreadShaderMap 0x0000026FED05A080, marking material FDebugViewModeMaterialProxy M_Glass as finished
+[2017.05.21-17.38.29:093][240]LogTemp:Display: Marking material as finished 0x0000026FD9547A00
+[2017.05.21-17.38.29:250][240]LogTemp:Display: Finished compile of shader map 0x0000026FECFFD980
+[2017.05.21-17.38.29:250][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Walnut complete, GameThreadShaderMap 0x0000026FECFFD980, marking material FDebugViewModeMaterialProxy M_Wood_Walnut as finished
+[2017.05.21-17.38.29:250][240]LogTemp:Display: Marking material as finished 0x0000026FD9547400
+[2017.05.21-17.38.29:264][240]LogTemp:Display: Finished compile of shader map 0x0000026F98E66E80
+[2017.05.21-17.38.29:264][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MatineeCam_mat complete, GameThreadShaderMap 0x0000026F98E66E80, marking material FDebugViewModeMaterialProxy MatineeCam_mat as finished
+[2017.05.21-17.38.29:264][240]LogTemp:Display: Marking material as finished 0x0000026FD9973700
+[2017.05.21-17.38.29:394][240]LogTemp:Display: Finished compile of shader map 0x0000026F98E67900
+[2017.05.21-17.38.29:394][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body complete, GameThreadShaderMap 0x0000026F98E67900, marking material FDebugViewModeMaterialProxy M_UE4Man_Body as finished
+[2017.05.21-17.38.29:394][240]LogTemp:Display: Marking material as finished 0x0000026FD9971300
+[2017.05.21-17.38.29:397][240]LogTemp:Display: Finished compile of shader map 0x0000026FECFFF900
+[2017.05.21-17.38.29:397][240]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_FPGun complete, GameThreadShaderMap 0x0000026FECFFF900, marking material FDebugViewModeMaterialProxy M_FPGun as finished
+[2017.05.21-17.38.29:397][240]LogTemp:Display: Marking material as finished 0x0000026FD9547100
+[2017.05.21-17.38.29:399][240]TextureStreamingBuild:Display: Compiling optional shaders took 1.511 seconds.
+[2017.05.21-17.38.29:559][240]LogLevel:Display: Export Material TexCoord Scales took 0.160 seconds.
+[2017.05.21-17.38.29:593][240]TextureStreamingBuild:Display: Build Texture Streaming took 0.034 seconds.
+[2017.05.21-17.38.29:647][240]LightingResults: New page: Lighting Build - May 21, 2017, 9:38:29 PM
+[2017.05.21-17.38.30:136][240]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.21-17.38.30:324][240]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.21-17.38.30:424][240]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.21-17.38.37:010][240]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.05.21-17.38.39:205][240]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:8008
+
+Server stack trace: 
+   à System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   à System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   à System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   à System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   à System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   à System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   à System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   à System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   à NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   à NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.05.21-17.38.44:518][240]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.21-17.38.44:520][240]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10320
+[2017.05.21-17.38.47:860][240]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.21-17.38.47:860][240]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.21-17.38.47:860][240]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.21-17.38.47:860][240]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.21-17.38.47:860][240]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.21-17.38.48:678][240]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.05.21-17.38.48:678][240]MapCheck: New page: FirstPersonExampleMap - May 21, 2017, 9:38:48 PM
+[2017.05.21-17.38.48:722][240]MapCheck:Warning: Warning Floor_400x425 Floor_400x425 is in the same location as Floor_400x428 
+[2017.05.21-17.38.48:722][240]MapCheck:Warning: Warning Floor_400x428 Floor_400x428 is in the same location as Floor_400x425 
+[2017.05.21-17.38.48:744][240]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.05.21-17.38.48:821][240]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 142.675ms to complete.
+[2017.05.21-17.38.48:843][240]LogEditorBuildUtils: Build time 0:21
+[2017.05.21-17.39.08:171][298]Job is a success!
+[2017.05.21-17.39.08:181][298]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.21-17.39.08:181][298]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.21-17.39.08:181][298]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.21-17.39.08:181][298]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.21-17.39.08:545][299]LogSlate: Took 0.000391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64) - 248 MB total VRAM
+[2017.05.21-17.39.11:133][299]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64) - 248 MB total VRAM
+[2017.05.21-17.39.11:333][299]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 32X32) - 248 MB total VRAM
+[2017.05.21-17.39.11:542][299]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.11:542][299]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024) - 248 MB total VRAM
+[2017.05.21-17.39.12:219][299]Lightmass on TYDYUS-PC: 20.3 sec total, 421 ms importing, 41 ms setup, 2.05 sec photons, 17.6 sec processing, 0 ms extra exporting [300/300 mappings]. Threads: 2:03 min total, 1:24 min processing.
+[2017.05.21-17.39.12:244][299]LogStaticLightingSystem: Illumination: 42.2 sec (2.13 sec encoding lightmaps, 408 ms encoding shadowmaps)
+[2017.05.21-17.39.12:244][299]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 10 textures
+[2017.05.21-17.39.12:244][299]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.05.21-17.39.12:834][299]DumpUnbuiltLightIteractions
+[2017.05.21-17.39.12:834][299]Lights with unbuilt interactions: 0
+[2017.05.21-17.39.12:834][299]
+[2017.05.21-17.39.12:834][299]Primitives with unbuilt interactions: 0
+[2017.05.21-17.39.12:867][300]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.21-17.39.12:868][300]MapCheck: New page: FirstPersonExampleMap - May 21, 2017, 9:39:12 PM
+[2017.05.21-17.39.12:869][300]MapCheck:Warning: Warning Floor_400x425 Floor_400x425 is in the same location as Floor_400x428 
+[2017.05.21-17.39.12:869][300]MapCheck:Warning: Warning Floor_400x428 Floor_400x428 is in the same location as Floor_400x425 
+[2017.05.21-17.39.12:935][300]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 67.743ms to complete.
+[2017.05.21-17.40.04:120][821]Cmd: TRANSACTION UNDO
+[2017.05.21-17.40.04:120][821]LogEditorTransaction: Undo Move Actors
+[2017.05.21-17.40.04:147][821]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.21-17.40.55:352][614]Cmd: TRANSACTION UNDO
+[2017.05.21-17.40.55:352][614]LogEditorTransaction: Undo Move Actors
+[2017.05.21-17.41.18:319][282]LogSlate: Took 0.015140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.21-17.41.27:546][ 50]MapCheck: New page: Map Check
+[2017.05.21-17.41.27:571][ 50]Cmd: MAP REBUILD ALLVISIBLE
+[2017.05.21-17.41.27:571][ 50]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.05.21-17.41.27:660][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.05.21-17.41.27:661][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FB4C88100 with Material 0x0000026FF97ACD00 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:663][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x0000026FB4C88100
+[2017.05.21-17.41.27:665][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.05.21-17.41.27:666][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FB4C88800 with Material 0x0000026F98838100 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:669][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, GameThreadShaderMap 0x0000026FB4C88800
+[2017.05.21-17.41.27:672][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lamp, compiling. 
+[2017.05.21-17.41.27:674][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FDA259980 with Material 0x0000026F98838400 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:677][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Lamp, GameThreadShaderMap 0x0000026FDA259980
+[2017.05.21-17.41.27:681][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.05.21-17.41.27:682][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FDA259600 with Material 0x0000026F9EB73D00 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:685][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, GameThreadShaderMap 0x0000026FDA259600
+[2017.05.21-17.41.27:689][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2017.05.21-17.41.27:691][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FDA25A080 with Material 0x0000026F9EB70D00 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:694][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Oak, GameThreadShaderMap 0x0000026FDA25A080
+[2017.05.21-17.41.27:698][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2017.05.21-17.41.27:699][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FDA258100 with Material 0x0000026F98ADF100 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:702][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Floor, GameThreadShaderMap 0x0000026FDA258100
+[2017.05.21-17.41.27:706][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, compiling. 
+[2017.05.21-17.41.27:707][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FF55B4B80 with Material 0x0000026F98ADD300 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:710][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, GameThreadShaderMap 0x0000026FF55B4B80
+[2017.05.21-17.41.27:714][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2017.05.21-17.41.27:716][ 50]LogTemp:Display: Added material ShaderMap 0x0000026F98A7A080 with Material 0x0000026F98ADD000 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:719][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Wall, GameThreadShaderMap 0x0000026F98A7A080
+[2017.05.21-17.41.27:723][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Poured, compiling. 
+[2017.05.21-17.41.27:725][ 50]LogTemp:Display: Added material ShaderMap 0x0000026F98A78F00 with Material 0x0000026F98ADF700 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:728][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Concrete_Poured, GameThreadShaderMap 0x0000026F98A78F00
+[2017.05.21-17.41.27:732][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_Old, compiling. 
+[2017.05.21-17.41.27:733][ 50]LogTemp:Display: Added material ShaderMap 0x0000026F98A78100 with Material 0x0000026FB69DC100 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:736][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Brick_Clay_Old, GameThreadShaderMap 0x0000026F98A78100
+[2017.05.21-17.41.27:739][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Steel, compiling. 
+[2017.05.21-17.41.27:741][ 50]LogTemp:Display: Added material ShaderMap 0x0000026F98A7AE80 with Material 0x0000026FB69DDC00 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:744][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Steel, GameThreadShaderMap 0x0000026F98A7AE80
+[2017.05.21-17.41.27:748][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2017.05.21-17.41.27:749][ 50]LogTemp:Display: Added material ShaderMap 0x0000026F98A7B200 with Material 0x0000026FB69DFA00 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:752][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Chair, GameThreadShaderMap 0x0000026F98A7B200
+[2017.05.21-17.41.27:756][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.05.21-17.41.27:757][ 50]LogTemp:Display: Added material ShaderMap 0x0000026F96A78100 with Material 0x0000026FB69DE500 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:760][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Glass, GameThreadShaderMap 0x0000026F96A78100
+[2017.05.21-17.41.27:763][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Walnut, compiling. 
+[2017.05.21-17.41.27:764][ 50]LogTemp:Display: Added material ShaderMap 0x0000026F96A78480 with Material 0x0000026FB69DD900 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:766][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Walnut, GameThreadShaderMap 0x0000026F96A78480
+[2017.05.21-17.41.27:770][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FPGun, compiling. 
+[2017.05.21-17.41.27:773][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FEA5D2E80 with Material 0x0000026F893D4400 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:776][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_FPGun, GameThreadShaderMap 0x0000026FEA5D2E80
+[2017.05.21-17.41.27:780][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.05.21-17.41.27:781][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FEA5D3200 with Material 0x0000026F893D4A00 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:784][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MatineeCam_mat, GameThreadShaderMap 0x0000026FEA5D3200
+[2017.05.21-17.41.27:787][ 50]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.05.21-17.41.27:791][ 50]LogTemp:Display: Added material ShaderMap 0x0000026FEA5D3C80 with Material 0x0000026F893D5300 to ShaderMapsBeingCompiled
+[2017.05.21-17.41.27:794][ 50]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_UE4Man_Body, GameThreadShaderMap 0x0000026FEA5D3C80
+[2017.05.21-17.41.28:171][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FB4C88100
+[2017.05.21-17.41.28:172][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x0000026FB4C88100, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.05.21-17.41.28:172][ 50]LogTemp:Display: Marking material as finished 0x0000026FF97ACD00
+[2017.05.21-17.41.28:196][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FB4C88800
+[2017.05.21-17.41.28:196][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 complete, GameThreadShaderMap 0x0000026FB4C88800, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2 as finished
+[2017.05.21-17.41.28:196][ 50]LogTemp:Display: Marking material as finished 0x0000026F98838100
+[2017.05.21-17.41.28:197][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FDA259980
+[2017.05.21-17.41.28:197][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Lamp complete, GameThreadShaderMap 0x0000026FDA259980, marking material FDebugViewModeMaterialProxy M_Lamp as finished
+[2017.05.21-17.41.28:197][ 50]LogTemp:Display: Marking material as finished 0x0000026F98838400
+[2017.05.21-17.41.28:222][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FDA259600
+[2017.05.21-17.41.28:222][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished complete, GameThreadShaderMap 0x0000026FDA259600, marking material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished as finished
+[2017.05.21-17.41.28:222][ 50]LogTemp:Display: Marking material as finished 0x0000026F9EB73D00
+[2017.05.21-17.41.28:323][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FDA258100
+[2017.05.21-17.41.28:323][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Floor complete, GameThreadShaderMap 0x0000026FDA258100, marking material FDebugViewModeMaterialProxy M_Basic_Floor as finished
+[2017.05.21-17.41.28:323][ 50]LogTemp:Display: Marking material as finished 0x0000026F98ADF100
+[2017.05.21-17.41.28:349][ 50]LogTemp:Display: Finished compile of shader map 0x0000026F98A7A080
+[2017.05.21-17.41.28:349][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Wall complete, GameThreadShaderMap 0x0000026F98A7A080, marking material FDebugViewModeMaterialProxy M_Basic_Wall as finished
+[2017.05.21-17.41.28:349][ 50]LogTemp:Display: Marking material as finished 0x0000026F98ADD000
+[2017.05.21-17.41.28:454][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FDA25A080
+[2017.05.21-17.41.28:454][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Oak complete, GameThreadShaderMap 0x0000026FDA25A080, marking material FDebugViewModeMaterialProxy M_Wood_Oak as finished
+[2017.05.21-17.41.28:454][ 50]LogTemp:Display: Marking material as finished 0x0000026F9EB70D00
+[2017.05.21-17.41.28:468][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FF55B4B80
+[2017.05.21-17.41.28:468][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker complete, GameThreadShaderMap 0x0000026FF55B4B80, marking material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker as finished
+[2017.05.21-17.41.28:468][ 50]LogTemp:Display: Marking material as finished 0x0000026F98ADD300
+[2017.05.21-17.41.28:632][ 50]LogTemp:Display: Finished compile of shader map 0x0000026F98A78F00
+[2017.05.21-17.41.28:632][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Concrete_Poured complete, GameThreadShaderMap 0x0000026F98A78F00, marking material FDebugViewModeMaterialProxy M_Concrete_Poured as finished
+[2017.05.21-17.41.28:632][ 50]LogTemp:Display: Marking material as finished 0x0000026F98ADF700
+[2017.05.21-17.41.28:634][ 50]LogTemp:Display: Finished compile of shader map 0x0000026F98A78100
+[2017.05.21-17.41.28:634][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Brick_Clay_Old complete, GameThreadShaderMap 0x0000026F98A78100, marking material FDebugViewModeMaterialProxy M_Brick_Clay_Old as finished
+[2017.05.21-17.41.28:634][ 50]LogTemp:Display: Marking material as finished 0x0000026FB69DC100
+[2017.05.21-17.41.28:711][ 50]LogTemp:Display: Finished compile of shader map 0x0000026F98A7B200
+[2017.05.21-17.41.28:711][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Chair complete, GameThreadShaderMap 0x0000026F98A7B200, marking material FDebugViewModeMaterialProxy M_Chair as finished
+[2017.05.21-17.41.28:711][ 50]LogTemp:Display: Marking material as finished 0x0000026FB69DFA00
+[2017.05.21-17.41.28:714][ 50]LogTemp:Display: Finished compile of shader map 0x0000026F98A7AE80
+[2017.05.21-17.41.28:714][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Steel complete, GameThreadShaderMap 0x0000026F98A7AE80, marking material FDebugViewModeMaterialProxy M_Metal_Steel as finished
+[2017.05.21-17.41.28:714][ 50]LogTemp:Display: Marking material as finished 0x0000026FB69DDC00
+[2017.05.21-17.41.28:749][ 50]LogTemp:Display: Finished compile of shader map 0x0000026F96A78100
+[2017.05.21-17.41.28:749][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Glass complete, GameThreadShaderMap 0x0000026F96A78100, marking material FDebugViewModeMaterialProxy M_Glass as finished
+[2017.05.21-17.41.28:749][ 50]LogTemp:Display: Marking material as finished 0x0000026FB69DE500
+[2017.05.21-17.41.28:869][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FEA5D3200
+[2017.05.21-17.41.28:869][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MatineeCam_mat complete, GameThreadShaderMap 0x0000026FEA5D3200, marking material FDebugViewModeMaterialProxy MatineeCam_mat as finished
+[2017.05.21-17.41.28:869][ 50]LogTemp:Display: Marking material as finished 0x0000026F893D4A00
+[2017.05.21-17.41.28:893][ 50]LogTemp:Display: Finished compile of shader map 0x0000026F96A78480
+[2017.05.21-17.41.28:893][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Walnut complete, GameThreadShaderMap 0x0000026F96A78480, marking material FDebugViewModeMaterialProxy M_Wood_Walnut as finished
+[2017.05.21-17.41.28:893][ 50]LogTemp:Display: Marking material as finished 0x0000026FB69DD900
+[2017.05.21-17.41.29:025][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FEA5D2E80
+[2017.05.21-17.41.29:025][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_FPGun complete, GameThreadShaderMap 0x0000026FEA5D2E80, marking material FDebugViewModeMaterialProxy M_FPGun as finished
+[2017.05.21-17.41.29:025][ 50]LogTemp:Display: Marking material as finished 0x0000026F893D4400
+[2017.05.21-17.41.29:039][ 50]LogTemp:Display: Finished compile of shader map 0x0000026FEA5D3C80
+[2017.05.21-17.41.29:039][ 50]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body complete, GameThreadShaderMap 0x0000026FEA5D3C80, marking material FDebugViewModeMaterialProxy M_UE4Man_Body as finished
+[2017.05.21-17.41.29:039][ 50]LogTemp:Display: Marking material as finished 0x0000026F893D5300
+[2017.05.21-17.41.29:042][ 50]TextureStreamingBuild:Display: Compiling optional shaders took 1.386 seconds.
+[2017.05.21-17.41.29:053][ 50]LogLevel:Display: Export Material TexCoord Scales took 0.011 seconds.
+[2017.05.21-17.41.29:089][ 50]TextureStreamingBuild:Display: Build Texture Streaming took 0.036 seconds.
+[2017.05.21-17.41.29:108][ 50]LightingResults: New page: Lighting Build - May 21, 2017, 9:41:29 PM
+[2017.05.21-17.41.29:118][ 50]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.21-17.41.29:121][ 50]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.21-17.41.29:121][ 50]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.21-17.41.29:122][ 50]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.21-17.41.29:122][ 50]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10320
+[2017.05.21-17.41.33:844][ 50]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.21-17.41.33:844][ 50]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.21-17.41.33:844][ 50]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.21-17.41.33:844][ 50]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.21-17.41.33:844][ 50]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.21-17.41.33:925][ 50]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.05.21-17.41.33:926][ 50]MapCheck: New page: FirstPersonExampleMap - May 21, 2017, 9:41:33 PM
+[2017.05.21-17.41.33:926][ 50]MapCheck:Warning: Warning Floor_400x425 Floor_400x425 is in the same location as Floor_400x428 
+[2017.05.21-17.41.33:926][ 50]MapCheck:Warning: Warning Floor_400x428 Floor_400x428 is in the same location as Floor_400x425 
+[2017.05.21-17.41.33:929][ 50]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.05.21-17.41.33:982][ 50]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 56.341ms to complete.
+[2017.05.21-17.41.34:004][ 50]LogEditorBuildUtils: Build time 0:06
+[2017.05.21-17.41.42:548][437]Cmd: DELETE
+[2017.05.21-17.41.42:548][437]Cmd: ACTOR DELETE
+[2017.05.21-17.41.42:649][437]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.21-17.41.42:680][437]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2017.05.21-17.41.49:303][776]MapCheck: New page: Map Check
+[2017.05.21-17.41.49:319][776]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.05.21-17.41.49:319][776]MapCheck: New page: FirstPersonExampleMap - May 21, 2017, 9:41:49 PM
+[2017.05.21-17.41.49:345][776]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.05.21-17.41.49:423][776]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 103.376ms to complete.
+[2017.05.21-17.41.49:445][776]LogEditorBuildUtils: Build time 0:00
+[2017.05.21-17.41.52:426][918]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.21-17.41.52:426][918]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.21-17.41.52:426][918]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.21-17.41.52:426][918]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.21-17.41.52:704][935]Job is a success!
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64) - 254 MB total VRAM
+[2017.05.21-17.41.54:947][936]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64) - 254 MB total VRAM
+[2017.05.21-17.41.55:147][936]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 32X32) - 254 MB total VRAM
+[2017.05.21-17.41.55:350][936]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.55:350][936]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024) - 254 MB total VRAM
+[2017.05.21-17.41.55:364][936]Lightmass on TYDYUS-PC: 20.6 sec total, 138 ms importing, 28 ms setup, 2.21 sec photons, 18.2 sec processing, 0 ms extra exporting [300/300 mappings]. Threads: 2:07 min total, 1:32 min processing.
+[2017.05.21-17.41.55:396][936]LogStaticLightingSystem: Illumination: 26.2 sec (1.95 sec encoding lightmaps, 401 ms encoding shadowmaps)
+[2017.05.21-17.41.55:396][936]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 10 textures
+[2017.05.21-17.41.55:396][936]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.05.21-17.41.55:851][936]DumpUnbuiltLightIteractions
+[2017.05.21-17.41.55:851][936]Lights with unbuilt interactions: 2
+[2017.05.21-17.41.55:851][936]    Light LightSource
+[2017.05.21-17.41.55:851][936]    Light DirectionalLight_1
+[2017.05.21-17.41.55:851][936]
+[2017.05.21-17.41.55:851][936]Primitives with unbuilt interactions: 1
+[2017.05.21-17.41.55:851][936]    Primitive StaticMeshComponent /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.Floor_400x426.StaticMeshComponent0
+[2017.05.21-17.41.55:893][937]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.21-17.41.55:893][937]MapCheck: New page: FirstPersonExampleMap - May 21, 2017, 9:41:55 PM
+[2017.05.21-17.41.55:898][937]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.05.21-17.41.55:970][937]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 76.859ms to complete.
+[2017.05.21-17.42.10:246][450]LogEditorViewport: Clicking on Actor (context menu): PointLight (PointLight2)
+[2017.05.21-17.42.14:214][717]LogSlate: Took 0.017723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.21-17.42.14:942][717]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.21-17.42.16:826][717]LogSlate: Took 0.013918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.21-17.44.46:110][969]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.05.21-17.45.23:079][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.05.21-17.45.32:248][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.05.21-17.46.14:343][515]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.05.21-17.48.21:303][671]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.05.21-17.48.38:599][994]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-17.48.38:614][994]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.48.38:614][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-17.48.38:628][994]PIE: New page: PIE session: FirstPersonExampleMap (May 21, 2017, 9:48:38 PM)
+[2017.05.21-17.48.38:645][994]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.21-17.48.38:705][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060422s)
+[2017.05.21-17.48.38:706][994]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.21-17.48.38:707][994]LogPlayLevel: PIE: World Init took: (0.001484s)
+[2017.05.21-17.48.38:707][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.079281s)
+[2017.05.21-17.48.38:731][994]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-17.48.38:737][994]LogInit: FAudioDevice initialized.
+[2017.05.21-17.48.38:901][994]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.21-17.48.38:969][994]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.21-19.48.38
+[2017.05.21-17.48.38:985][994]LogWorld: Bringing up level for play took: 0.039237
+[2017.05.21-17.48.39:121][994]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.05.21-17.48.39:147][994]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.377
+[2017.05.21-17.48.39:161][994]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.48.51:577][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.48.51:760][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.49.18:732][775]LogSavePackage: Save=489.99ms
+[2017.05.21-17.49.18:732][775]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_Auto15D16324043283D4D7709C68E77582B87.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.05.21-17.49.18:735][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.05.21-17.49.18:755][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.756
+[2017.05.21-17.49.18:755][775]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.756
+[2017.05.21-17.49.18:758][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2017.05.21-17.49.18:758][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData]
+[2017.05.21-17.49.18:982][775]LogSavePackage: Save=74.99ms
+[2017.05.21-17.49.18:982][775]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltData_Auto16EBFF6474C03BA18EAA964BADB077C94.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto1.uasset'
+[2017.05.21-17.49.18:988][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto1.uasset
+[2017.05.21-17.49.18:988][775]LogFileHelpers: Auto-saving content packages took 0.231
+[2017.05.21-17.49.29:304][ 85]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.05.21-17.49.33:695][342]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-17.49.33:704][342]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.49.33:704][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-17.49.33:705][342]PIE: New page: PIE session: FirstPersonExampleMap (May 21, 2017, 9:49:33 PM)
+[2017.05.21-17.49.33:705][342]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.21-17.49.33:771][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066177s)
+[2017.05.21-17.49.33:772][342]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.21-17.49.33:772][342]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2017.05.21-17.49.33:772][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.067571s)
+[2017.05.21-17.49.33:794][342]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-17.49.33:800][342]LogInit: FAudioDevice initialized.
+[2017.05.21-17.49.33:830][342]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.21-17.49.33:842][342]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.21-19.49.33
+[2017.05.21-17.49.33:843][342]LogWorld: Bringing up level for play took: 0.011864
+[2017.05.21-17.49.33:844][342]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.074
+[2017.05.21-17.49.33:844][342]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.49.53:857][720]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=348.989 Y=-468.346 Z=167.934] for [FirstPersonProjectile_C]
+[2017.05.21-17.50.04:567][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.50.04:622][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.50.05:922][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lamp_Ceiling2)
+[2017.05.21-17.50.57:160][806]LogRenderer: Reallocating scene render targets to support 780x540 NumSamples 1 (Frame:44884).
+[2017.05.21-17.50.57:267][808]LogRenderer: Reallocating scene render targets to support 784x540 NumSamples 1 (Frame:44888).
+[2017.05.21-17.50.57:360][810]LogRenderer: Reallocating scene render targets to support 788x540 NumSamples 1 (Frame:44892).
+[2017.05.21-17.50.58:245][902]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-17.50.58:255][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.50.58:255][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-17.50.58:255][902]PIE: New page: PIE session: FirstPersonExampleMap (May 21, 2017, 9:50:58 PM)
+[2017.05.21-17.50.58:255][902]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.21-17.50.58:329][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074180s)
+[2017.05.21-17.50.58:331][902]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.21-17.50.58:331][902]LogPlayLevel: PIE: World Init took: (0.001250s)
+[2017.05.21-17.50.58:331][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.075816s)
+[2017.05.21-17.50.58:356][902]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-17.50.58:362][902]LogInit: FAudioDevice initialized.
+[2017.05.21-17.50.58:391][902]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.21-17.50.58:404][902]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.21-19.50.58
+[2017.05.21-17.50.58:404][902]LogWorld: Bringing up level for play took: 0.011894
+[2017.05.21-17.50.58:406][902]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.635
+[2017.05.21-17.50.58:406][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.51.02:374][363]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=360.855 Y=-472.598 Z=168.927] for [FirstPersonProjectile_C]
+[2017.05.21-17.52.05:895][928]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=450.000 Y=-269.631 Z=280.529] for [FirstPersonProjectile_C]
+[2017.05.21-17.52.31:983][ 34]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=178.581 Y=-436.642 Z=485.790] for [FirstPersonProjectile_C]
+[2017.05.21-17.52.34:040][279]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=145.078 Y=-489.871 Z=269.082] for [FirstPersonProjectile_C]
+[2017.05.21-17.53.06:772][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.53.06:848][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.53.38:467][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2017.05.21-17.54.16:015][ 51]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.05.21-17.54.18:134][165]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-17.54.18:143][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.54.18:144][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-17.54.18:144][165]PIE: New page: PIE session: FirstPersonExampleMap (May 21, 2017, 9:54:18 PM)
+[2017.05.21-17.54.18:144][165]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.21-17.54.18:183][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039667s)
+[2017.05.21-17.54.18:184][165]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.21-17.54.18:185][165]LogPlayLevel: PIE: World Init took: (0.001309s)
+[2017.05.21-17.54.18:185][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.041428s)
+[2017.05.21-17.54.18:212][165]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-17.54.18:218][165]LogInit: FAudioDevice initialized.
+[2017.05.21-17.54.18:251][165]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.21-17.54.18:264][165]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.21-19.54.18
+[2017.05.21-17.54.18:264][165]LogWorld: Bringing up level for play took: 0.011676
+[2017.05.21-17.54.18:266][165]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.495
+[2017.05.21-17.54.18:266][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.54.25:732][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.54.25:824][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.55.27:571][  5]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2017.05.21-17.55.29:632][ 92]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-17.55.29:641][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.55.29:641][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-17.55.29:641][ 92]PIE: New page: PIE session: FirstPersonExampleMap (May 21, 2017, 9:55:29 PM)
+[2017.05.21-17.55.29:642][ 92]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.21-17.55.29:679][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037037s)
+[2017.05.21-17.55.29:680][ 92]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.21-17.55.29:680][ 92]LogPlayLevel: PIE: World Init took: (0.001359s)
+[2017.05.21-17.55.29:681][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.038877s)
+[2017.05.21-17.55.29:707][ 92]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-17.55.29:714][ 92]LogInit: FAudioDevice initialized.
+[2017.05.21-17.55.29:745][ 92]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.21-17.55.29:758][ 92]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.21-19.55.29
+[2017.05.21-17.55.29:759][ 92]LogWorld: Bringing up level for play took: 0.012732
+[2017.05.21-17.55.29:762][ 92]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.009
+[2017.05.21-17.55.29:762][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.55.34:764][530]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=143.456 Y=-465.663 Z=271.058] for [FirstPersonProjectile_C]
+[2017.05.21-17.55.38:171][832]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=136.950 Y=-494.637 Z=272.350] for [FirstPersonProjectile_C]
+[2017.05.21-17.56.00:664][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.56.00:739][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.56.25:343][234]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.21-17.57.24:695][381]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.21-17.58.09:100][ 50]BlueprintLog: New page: Compile FirstPersonCharacter
+[2017.05.21-17.58.15:723][457]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-17.58.15:735][457]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.58.15:735][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-17.58.15:735][457]PIE: New page: PIE session: FirstPersonExampleMap (May 21, 2017, 9:58:15 PM)
+[2017.05.21-17.58.15:735][457]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.21-17.58.15:771][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036278s)
+[2017.05.21-17.58.15:772][457]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.21-17.58.15:773][457]LogPlayLevel: PIE: World Init took: (0.001381s)
+[2017.05.21-17.58.15:773][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.038178s)
+[2017.05.21-17.58.15:797][457]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-17.58.15:803][457]LogInit: FAudioDevice initialized.
+[2017.05.21-17.58.15:832][457]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.21-17.58.15:845][457]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.21-19.58.15
+[2017.05.21-17.58.15:846][457]LogWorld: Bringing up level for play took: 0.012536
+[2017.05.21-17.58.15:847][457]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.077
+[2017.05.21-17.58.15:847][457]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.58.26:033][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.58.26:081][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.58.49:723][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube2)
+[2017.05.21-17.59.11:331][857]LogRenderer: Reallocating scene render targets to support 788x700 NumSamples 1 (Frame:84600).
+[2017.05.21-17.59.44:747][831]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-17.59.44:759][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.59.44:760][831]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.21-17.59.44:760][831]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
+[2017.05.21-17.59.44:907][831]LogPlayLevel: PlayLevel: Blueprint regeneration took 147 ms (1 blueprints)
+[2017.05.21-17.59.44:907][831]PIE: New page: PIE session: FirstPersonExampleMap (May 21, 2017, 9:59:44 PM)
+[2017.05.21-17.59.44:907][831]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.21-17.59.44:944][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036499s)
+[2017.05.21-17.59.44:945][831]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.21-17.59.44:946][831]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2017.05.21-17.59.44:946][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.038250s)
+[2017.05.21-17.59.44:975][831]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-17.59.44:982][831]LogInit: FAudioDevice initialized.
+[2017.05.21-17.59.45:018][831]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.21-17.59.45:030][831]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.21-19.59.45
+[2017.05.21-17.59.45:031][831]LogWorld: Bringing up level for play took: 0.012053
+[2017.05.21-17.59.45:032][831]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.262
+[2017.05.21-17.59.45:032][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.59.47:218][  3]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.59.47:293][  3]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.59.52:618][353]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.21-17.59.52:628][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-17.59.52:628][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.21-17.59.52:628][353]PIE: New page: PIE session: FirstPersonExampleMap (May 21, 2017, 9:59:52 PM)
+[2017.05.21-17.59.52:628][353]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.21-17.59.52:662][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034077s)
+[2017.05.21-17.59.52:663][353]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.21-17.59.52:663][353]LogPlayLevel: PIE: World Init took: (0.001605s)
+[2017.05.21-17.59.52:663][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.036169s)
+[2017.05.21-17.59.52:689][353]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.21-17.59.52:694][353]LogInit: FAudioDevice initialized.
+[2017.05.21-17.59.52:721][353]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.21-17.59.52:734][353]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.21-19.59.52
+[2017.05.21-17.59.52:734][353]LogWorld: Bringing up level for play took: 0.011850
+[2017.05.21-17.59.52:736][353]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.965
+[2017.05.21-17.59.52:736][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-18.00.05:296][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-18.00.05:370][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.21-18.03.03:570][710]LogSavePackage: Save=460.24ms
+[2017.05.21-18.03.03:570][710]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_Auto22907C7A24B2576AE4FF1A18FB822D46E.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.05.21-18.03.03:573][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.05.21-18.03.03:575][710]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.613
+[2017.05.21-18.03.03:575][710]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.613
+[2017.05.21-18.03.03:579][710]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2017.05.21-18.03.03:628][710]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2017.05.21-18.03.03:628][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2017.05.21-18.03.03:730][710]LogSavePackage: Save=95.62ms
+[2017.05.21-18.03.03:730][710]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonCharacter_Auto2748709324F76244400DDACAFAFC7B555.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2017.05.21-18.03.03:732][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2017.05.21-18.03.03:732][710]LogFileHelpers: Auto-saving content packages took 0.155
+[2017.05.21-19.17.40:632][381]LogSavePackage: Save=481.64ms
+[2017.05.21-19.17.40:632][381]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMapC0A80476485BF88625DF6C949CC88EAE.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.05.21-19.17.40:638][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.05.21-19.17.41:227][381]LogSavePackage: Save=546.82ms
+[2017.05.21-19.17.41:227][381]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltDataA28AC0E941B578BB4E9CFCAEBB4C4E98.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.05.21-19.17.41:233][381]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.05.21-19.17.44:961][519]LogSavePackage: Save=58.44ms
+[2017.05.21-19.17.44:961][519]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonCharacter1E12F8E640715E91CFF99AA9C1A99ED5.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2017.05.21-19.17.44:966][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.05.21-19.17.45:039][519]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.21-19.17.45:347][520]Cmd: QUIT_EDITOR
+[2017.05.21-19.17.46:339][520]LogExit: Preparing to exit.
+[2017.05.21-19.17.47:124][520]LogDirectoryWatcher: A directory notification for 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/' was aborted.
+[2017.05.21-19.17.47:233][520]LogExit: Editor shut down
+[2017.05.21-19.17.47:235][520]LogExit: Transaction tracking system shut down
+[2017.05.21-19.17.47:420][520]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.21-19.17.47:420][520]LogExit: Object subsystem successfully closed.
+[2017.05.21-19.17.47:445][520]LogD3D11RHI: Shutdown
+[2017.05.21-19.17.47:445][520]LogD3D11RHI: CleanupD3DDevice
+[2017.05.21-19.17.47:639][520]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.21-19.17.47:687][520]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.05.21-19.17.47:687][520]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.05.21-19.17.47:688][520]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.05.21-19.17.47:699][520]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (500)
+[2017.05.21-19.17.47:699][520]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.21-19.17.47:699][520]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.21-19.17.47:699][520]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.21-19.17.47:699][520]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.21-19.17.47:699][520]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.21-19.17.47:709][520]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.21-19.17.47:709][520]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.21-19.17.47:709][520]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.21-19.17.47:709][520]LogDirectoryWatcher: A directory notification for 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/Collections/' was aborted.
+[2017.05.21-19.17.47:710][520]LogDirectoryWatcher: A directory notification for 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/Developers/Tydyus/Collections/' was aborted.
+[2017.05.21-19.17.47:710][520]LogDirectoryWatcher: A directory notification for 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Collections/' was aborted.
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.21-19.17.47:710][520]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.21-19.17.47:711][520]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.21-19.17.48:395][520]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.21-19.17.48:396][520]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.21-19.17.48:441][520]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.21-19.17.48:441][520]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.21-19.17.48:441][520]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.21-19.17.48:441][520]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.21-19.17.48:441][520]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.21-19.17.48:441][520]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.21-19.17.48:441][520]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.21-19.17.48:441][520]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.21-19.17.48:441][520]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.21-19.17.48:451][520]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.21-19.17.48:452][520]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.21-19.17.48:454][520]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.21-19.17.48:454][520]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.21-19.17.48:454][520]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.21-19.17.48:454][520]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.21-19.17.48:454][520]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.21-19.17.48:454][520]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.21-19.17.48:455][520]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.21-19.17.48:538][520]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.21-19.17.48:539][520]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.21-19.17.48:540][520]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.21-19.17.48:540][520]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.21-19.17.48:540][520]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.21-19.17.48:541][520]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.21-19.17.48:543][520]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.21-19.17.48:543][520]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.21-19.17.48:543][520]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.21-19.17.48:543][520]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.21-19.17.48:644][520]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.21-19.17.48:746][520]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.21-19.17.48:747][520]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.21-19.17.48:747][520]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.21-19.17.48:747][520]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.21-19.17.48:747][520]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.21-19.17.48:747][520]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.21-19.17.48:747][520]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.21-19.17.48:756][520]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.21-19.17.48:756][520]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.21-19.17.48:756][520]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.21-19.17.48:756][520]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.21-19.17.48:756][520]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.21-19.17.48:756][520]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.21-19.17.48:935][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.21-19.17.48:935][520]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/' was aborted.
+[2017.05.21-19.17.48:935][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.21-19.17.48:936][520]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.21-19.17.48:938][520]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.21-19.17.48:938][520]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.21-19.17.48:938][520]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.21-19.17.48:938][520]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.21-19.17.48:938][520]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.21-19.17.48:938][520]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.21-19.17.48:938][520]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.21-19.17.48:938][520]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.21-19.17.48:982][520]LogDerivedDataCache: Shutdown
+[2017.05.21-19.17.48:982][520]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.21-19.17.48:982][520]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.21-19.17.48:982][520]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.21-19.17.48:983][520]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.21-19.17.48:984][520]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.21-19.17.48:984][520]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.21-19.17.48:984][520]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.21-19.17.48:984][520]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B472ECAB3-4099-7BC5-8578-CA8C03E6020A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=acddcb364ceea6ec6827288ee666ebd7%7C39fcf2a1771c4177904b4f0f03944ffb%7Ca88ba6cf-ff0a-40cb-ab69-9dea0f3848d1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.21-19.17.48:989][520]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.21-19.17.48:991][520]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.21-19.17.48:991][520]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.21-19.17.48:991][520]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.21-19.17.48:991][520]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.21-19.17.48:991][520]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.21-19.17.49:005][520]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.21-19.17.49:007][520]LogExit: Exiting.
+[2017.05.21-19.17.49:013][520]Log file closed, 05/21/17 21:17:49

@@ -1,0 +1,1687 @@
+﻿Log file open, 05/15/17 21:24:01
+LogInit:Display: Running engine for game: albinos
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(988312387) SRandInit(988312387).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089409
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.15-19.24.02:789][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.15-19.24.02:789][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.15-19.24.02:866][  0]LogInit: Computer: TYDYUS-PC
+[2017.05.15-19.24.02:866][  0]LogInit: User: Tydyus
+[2017.05.15-19.24.02:866][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.15-19.24.02:866][  0]LogInit: High frequency timer resolution =3.312790 MHz
+[2017.05.15-19.24.02:867][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.05.15-19.24.02:867][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.15-19.24.02:867][  0]LogMemory: Process Physical Memory: 263.61 MB used, 263.61 MB peak
+[2017.05.15-19.24.02:867][  0]LogMemory: Process Virtual Memory: 262.67 MB used, 262.67 MB peak
+[2017.05.15-19.24.02:867][  0]LogMemory: Physical Memory: 5195.49 MB used,  2978.95 MB free, 8174.44 MB total
+[2017.05.15-19.24.02:867][  0]LogMemory: Virtual Memory: 645.86 MB used,  2978.95 MB free, 134217728.00 MB total
+[2017.05.15-19.24.02:962][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.05.15-19.24.03:633][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.15-19.24.03:677][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560 Ti' (Feature Level 11_0)
+[2017.05.15-19.24.03:677][  0]LogD3D11RHI:       1233/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.15-19.24.03:678][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.15-19.24.03:678][  0]LogD3D11RHI:       0/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.15-19.24.03:678][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.15-19.24.03:682][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.15-19.24.03:682][  0]LogD3D11RHI:     GPU DeviceId: 0x1082 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.15-19.24.03:682][  0]LogWindows: EnumDisplayDevices:
+[2017.05.15-19.24.03:682][  0]LogWindows:    0. 'NVIDIA GeForce GTX 560 Ti' (P:1 D:1)
+[2017.05.15-19.24.03:682][  0]LogWindows:    1. 'NVIDIA GeForce GTX 560 Ti' (P:0 D:0)
+[2017.05.15-19.24.03:682][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.05.15-19.24.03:682][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560 Ti
+[2017.05.15-19.24.03:682][  0]LogD3D11RHI:   Driver Version: 364.72 (internal:10.18.13.6472, unified:364.72)
+[2017.05.15-19.24.03:682][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2017.05.15-19.24.03:682][  0]LogRHI: Texture pool is 863 MB (70% of 1233 MB)
+[2017.05.15-19.24.03:695][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.15-19.24.03:695][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.05.15-19.24.03:695][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.15-19.24.03:695][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.15-19.24.03:705][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.15-19.24.03:754][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Intermediate/Shaders/WorkingDirectory/1696/).
+[2017.05.15-19.24.03:754][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tydyus/AppData/Local/Temp/UnrealShaderWorkingDir/692A1773422B01B643487DBBDF2B4D5F/'.
+[2017.05.15-19.24.03:754][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.15-19.24.04:942][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.15-19.24.05:005][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.15-19.24.05:092][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.15-19.24.05:189][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.15-19.24.05:549][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.15-19.24.05:645][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.15-19.24.05:717][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.15-19.24.05:826][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.15-19.24.05:895][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.15-19.24.05:957][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.15-19.24.06:020][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.15-19.24.06:083][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.15-19.24.06:144][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.15-19.24.06:203][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.15-19.24.06:261][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.15-19.24.06:378][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.15-19.24.06:378][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.15-19.24.06:421][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.15-19.24.06:526][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.15-19.24.06:564][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.15-19.24.06:624][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.15-19.24.06:682][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.15-19.24.06:741][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.15-19.24.06:809][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.15-19.24.06:809][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.15-19.24.07:298][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.15-19.24.07:351][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Tydyus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.15-19.24.07:351][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tydyus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.15-19.24.07:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.15-19.24.07:351][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.15-19.24.07:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.15-19.24.07:351][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.15-19.24.07:371][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.15-19.24.07:384][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tydyus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.15-19.24.07:394][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.15-19.24.07:394][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.15-19.24.07:394][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.15-19.24.07:735][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.15-19.24.07:738][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.15-19.24.07:972][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.15-19.24.08:024][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.15-19.24.08:075][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.15-19.24.08:075][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.15-19.24.08:075][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.15-19.24.08:662][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: albinos, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1571744082
+[2017.05.15-19.24.08:715][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.05.15-19.24.08:762][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.018219 seconds
+[2017.05.15-19.24.08:767][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.15-19.24.08:767][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.15-19.24.08:767][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.15-19.24.08:842][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.15-19.24.10:547][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.15-19.24.10:590][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.15-19.24.11:119][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.15-19.24.11:563][  0]SourceControl: Info Source control is disabled
+[2017.05.15-19.24.11:565][  0]SourceControl: Info Source control is disabled
+[2017.05.15-19.24.11:631][  0]SourceControl: Info Source control is disabled
+[2017.05.15-19.24.11:684][  0]SourceControl: Info Source control is disabled
+[2017.05.15-19.24.13:062][  0]LogEngine: Initializing Engine...
+[2017.05.15-19.24.13:063][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.15-19.24.13:176][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.15-19.24.13:176][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.15-19.24.13:312][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.15-19.24.13:322][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.15-19.24.13:342][  0]LogInit: FAudioDevice initialized.
+[2017.05.15-19.24.13:390][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Tydyus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.15-19.24.13:399][  0]LogInit: Texture streaming: Enabled
+[2017.05.15-19.24.13:503][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.15-19.24.13:622][  0]LogInit: Transaction tracking system initialized
+[2017.05.15-19.24.14:001][  0]BlueprintLog: New page: Editor Load
+[2017.05.15-19.24.14:996][  0]LocalizationService: Info Localization service is disabled
+[2017.05.15-19.24.15:725][  0]LogConsoleResponse:Display: 
+[2017.05.15-19.24.15:901][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.15-19.24.15:901][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.15-19.24.16:288][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/' took 0.02s
+[2017.05.15-19.24.17:041][  0]SourceControl: Info Source control is disabled
+[2017.05.15-19.24.17:042][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.15-19.24.17:042][  0]LightingResults: New page: Lighting Build
+[2017.05.15-19.24.17:088][  0]MapCheck: New page: Map Check
+[2017.05.15-19.24.17:088][  0]LightingResults: New page: Lighting Build
+[2017.05.15-19.24.21:239][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.15-19.24.21:669][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.15-19.24.21:684][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.15-19.24.21:745][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.643ms to complete.
+[2017.05.15-19.24.21:745][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.703
+[2017.05.15-19.24.21:826][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.15-19.24.22:433][  0]LogCollectionManager: Loaded 0 collections in 0.001624 seconds
+[2017.05.15-19.24.22:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Collections/' took 0.01s
+[2017.05.15-19.24.22:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/Developers/Tydyus/Collections/' took 0.01s
+[2017.05.15-19.24.22:633][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/Collections/' took 0.01s
+[2017.05.15-19.24.22:633][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.05.15-19.24.22:661][  0]LogContentBrowser: Native class hierarchy populated in 0.0256 seconds. Added 2245 classes and 453 folders.
+[2017.05.15-19.24.22:753][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.15-19.24.23:853][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.05.15-19.24.24:014][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.05.15-19.24.24:315][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.15-19.24.24:378][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.15-19.24.24:475][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.05.15-19.24.24:475][  0]LogLoad: (Engine Initialization) Total time: 24.78 seconds
+[2017.05.15-19.24.24:475][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2017.05.15-19.24.24:475][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.15-19.24.24:475][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.15-19.24.24:485][  0]LogOcInput: OculusInput pre-init called
+[2017.05.15-19.24.24:544][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.15-19.24.24:545][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.15-19.24.24:549][  0]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.15-19.24.24:585][  0]LogSlate: Took 0.011022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.15-19.24.25:180][  0]LogRenderer: Reallocating scene render targets to support 776x540 NumSamples 1 (Frame:2).
+[2017.05.15-19.24.25:784][  1]LogSlate: Took 0.013281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.15-19.24.25:811][  2]LogAssetRegistry: Asset discovery search completed in 17.1189 seconds
+[2017.05.15-19.24.25:811][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.05.15-19.24.25:811][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.05.15-19.24.34:013][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube42)
+[2017.05.15-19.24.40:997][285]Cmd: DELETE
+[2017.05.15-19.24.40:997][285]Cmd: ACTOR DELETE
+[2017.05.15-19.24.41:071][285]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.24.41:089][285]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.24.41:090][285]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.24.41:090][285]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.24.41:090][285]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.24.41:090][285]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.24.41:107][285]LogEditorActor: Deleted 6 Actors (0.046 secs)
+[2017.05.15-19.24.42:292][423]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Shape_Cube27)
+[2017.05.15-19.25.20:148][339]Cmd: EDIT COPY
+[2017.05.15-19.25.20:398][360]Cmd: EDIT PASTE
+[2017.05.15-19.25.24:238][746]Cmd: EDIT PASTE
+[2017.05.15-19.25.33:118][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube27)
+[2017.05.15-19.25.35:384][852]Cmd: EDIT COPY
+[2017.05.15-19.25.35:736][891]Cmd: EDIT PASTE
+[2017.05.15-19.25.42:906][570]Cmd: EDIT COPY
+[2017.05.15-19.25.43:408][625]Cmd: EDIT PASTE
+[2017.05.15-19.25.47:227][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube48)
+[2017.05.15-19.25.49:575][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube47)
+[2017.05.15-19.25.51:772][402]Cmd: EDIT COPY
+[2017.05.15-19.25.52:285][451]Cmd: EDIT PASTE
+[2017.05.15-19.25.57:973][982]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Shape_Cube51)
+[2017.05.15-19.25.58:846][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube51)
+[2017.05.15-19.25.59:699][143]Cmd: DELETE
+[2017.05.15-19.25.59:699][143]Cmd: ACTOR DELETE
+[2017.05.15-19.25.59:701][143]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.25.59:718][143]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.05.15-19.26.00:391][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube50)
+[2017.05.15-19.26.00:938][261]Cmd: DELETE
+[2017.05.15-19.26.00:938][261]Cmd: ACTOR DELETE
+[2017.05.15-19.26.00:939][261]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.26.00:950][261]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.05.15-19.26.04:144][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube49)
+[2017.05.15-19.26.13:830][452]Cmd: EDIT COPY
+[2017.05.15-19.26.14:107][479]Cmd: EDIT PASTE
+[2017.05.15-19.26.19:457][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x326)
+[2017.05.15-19.26.20:434][994]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube57)
+[2017.05.15-19.26.21:581][ 87]Cmd: DELETE
+[2017.05.15-19.26.21:581][ 87]Cmd: ACTOR DELETE
+[2017.05.15-19.26.21:582][ 87]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.26.21:597][ 87]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.05.15-19.26.22:298][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube51)
+[2017.05.15-19.26.22:738][179]Cmd: DELETE
+[2017.05.15-19.26.22:738][179]Cmd: ACTOR DELETE
+[2017.05.15-19.26.22:739][179]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.26.22:753][179]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.28.54:617][844]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x318)
+[2017.05.15-19.29.11:646][425]Cmd: DELETE
+[2017.05.15-19.29.11:646][425]Cmd: ACTOR DELETE
+[2017.05.15-19.29.11:646][425]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.29.11:660][425]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.29.14:592][671]LogActorFactory: Actor Factory created Cube
+[2017.05.15-19.29.17:003][890]LogActorFactory: Actor Factory created Cube
+[2017.05.15-19.29.17:954][975]Cmd: DELETE
+[2017.05.15-19.29.17:954][975]Cmd: ACTOR DELETE
+[2017.05.15-19.29.17:955][975]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.29.17:969][975]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.29.27:690][486]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.29.28:474][557]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.30.13:885][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube62)
+[2017.05.15-19.30.15:019][742]Cmd: DELETE
+[2017.05.15-19.30.15:019][742]Cmd: ACTOR DELETE
+[2017.05.15-19.30.15:020][742]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.30.15:032][742]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.30.16:429][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube51)
+[2017.05.15-19.30.18:030][  3]Cmd: EDIT COPY
+[2017.05.15-19.30.18:290][ 27]Cmd: EDIT PASTE
+[2017.05.15-19.30.30:392][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x326)
+[2017.05.15-19.30.37:654][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x326)
+[2017.05.15-19.30.39:499][826]Cmd: EDIT COPY
+[2017.05.15-19.30.39:754][849]Cmd: EDIT PASTE
+[2017.05.15-19.30.56:038][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube49)
+[2017.05.15-19.31.19:029][ 43]Cmd: EDIT COPY
+[2017.05.15-19.31.19:332][ 69]Cmd: EDIT PASTE
+[2017.05.15-19.31.27:081][560]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube62)
+[2017.05.15-19.31.28:341][639]Cmd: DELETE
+[2017.05.15-19.31.28:341][639]Cmd: ACTOR DELETE
+[2017.05.15-19.31.28:342][639]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.31.28:353][639]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.31.29:562][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube84)
+[2017.05.15-19.31.30:376][768]Cmd: DELETE
+[2017.05.15-19.31.30:376][768]Cmd: ACTOR DELETE
+[2017.05.15-19.31.30:377][768]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.31.30:390][768]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.31.31:346][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube74)
+[2017.05.15-19.31.31:600][849]Cmd: DELETE
+[2017.05.15-19.31.31:600][849]Cmd: ACTOR DELETE
+[2017.05.15-19.31.31:601][849]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.31.31:611][849]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.05.15-19.31.32:355][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube73)
+[2017.05.15-19.31.33:462][971]Cmd: EDIT COPY
+[2017.05.15-19.31.33:719][989]Cmd: EDIT PASTE
+[2017.05.15-19.31.36:670][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x429)
+[2017.05.15-19.32.27:813][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube7)
+[2017.05.15-19.32.58:825][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube17)
+[2017.05.15-19.32.59:981][860]Cmd: EDIT COPY
+[2017.05.15-19.33.00:232][887]Cmd: EDIT PASTE
+[2017.05.15-19.33.29:147][701]Cmd: EDIT COPY
+[2017.05.15-19.33.29:410][721]Cmd: EDIT PASTE
+[2017.05.15-19.33.38:529][456]Cmd: EDIT COPY
+[2017.05.15-19.33.39:199][512]Cmd: EDIT PASTE
+[2017.05.15-19.33.42:818][778]Cmd: EDIT COPY
+[2017.05.15-19.33.43:096][800]Cmd: EDIT PASTE
+[2017.05.15-19.33.52:553][536]Cmd: EDIT PASTE
+[2017.05.15-19.34.25:185][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube3)
+[2017.05.15-19.34.38:938][512]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.34.41:662][766]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.34.43:771][912]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.34.48:149][221]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.35.01:034][452]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.35.02:140][551]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.35.20:262][916]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.15-19.35.28:950][ 91]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.15-19.35.29:338][ 91]LogSavePackage: Save=314.63ms
+[2017.05.15-19.35.29:338][ 91]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_Auto12007DC67471FF097AA59B7BEBE93CB07.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.05.15-19.35.29:342][ 91]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.05.15-19.35.29:345][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.356
+[2017.05.15-19.35.29:345][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.356
+[2017.05.15-19.36.01:865][296]LogActorFactory: Actor Factory created Shape_Sphere
+[2017.05.15-19.36.04:697][569]LogActorFactory: Actor Factory created Shape_Sphere
+[2017.05.15-19.36.06:814][768]LogActorFactory: Actor Factory created Shape_Sphere
+[2017.05.15-19.36.07:295][810]Cmd: DELETE
+[2017.05.15-19.36.07:295][810]Cmd: ACTOR DELETE
+[2017.05.15-19.36.07:296][810]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.36.07:307][810]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.36.10:237][969]LogActorFactory: Actor Factory created Shape_WideCapsule
+[2017.05.15-19.36.12:209][156]LogActorFactory: Actor Factory created Shape_WideCapsule
+[2017.05.15-19.36.37:581][410]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.36.38:848][513]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.36.39:712][585]Cmd: DELETE
+[2017.05.15-19.36.39:712][585]Cmd: ACTOR DELETE
+[2017.05.15-19.36.39:713][585]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.36.39:727][585]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.37.13:376][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube57)
+[2017.05.15-19.37.14:465][  9]Cmd: DELETE
+[2017.05.15-19.37.14:465][  9]Cmd: ACTOR DELETE
+[2017.05.15-19.37.14:466][  9]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.14:479][  9]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.37.15:425][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube51)
+[2017.05.15-19.37.15:551][ 81]Cmd: DELETE
+[2017.05.15-19.37.15:551][ 81]Cmd: ACTOR DELETE
+[2017.05.15-19.37.15:553][ 81]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.15:564][ 81]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.37.17:572][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube73)
+[2017.05.15-19.37.18:654][285]Cmd: DELETE
+[2017.05.15-19.37.18:654][285]Cmd: ACTOR DELETE
+[2017.05.15-19.37.18:655][285]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.18:667][285]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.37.19:030][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube70)
+[2017.05.15-19.37.19:087][313]Cmd: DELETE
+[2017.05.15-19.37.19:087][313]Cmd: ACTOR DELETE
+[2017.05.15-19.37.19:088][313]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.19:099][313]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.19:562][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube77)
+[2017.05.15-19.37.19:622][346]Cmd: DELETE
+[2017.05.15-19.37.19:622][346]Cmd: ACTOR DELETE
+[2017.05.15-19.37.19:623][346]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.19:634][346]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.05.15-19.37.20:180][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x429)
+[2017.05.15-19.37.20:237][385]Cmd: DELETE
+[2017.05.15-19.37.20:237][385]Cmd: ACTOR DELETE
+[2017.05.15-19.37.20:238][385]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.20:249][385]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.21:702][488]Cmd: TRANSACTION UNDO
+[2017.05.15-19.37.21:702][488]LogEditorTransaction: Undo Delete Actors
+[2017.05.15-19.37.24:907][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube74)
+[2017.05.15-19.37.26:010][702]Cmd: DELETE
+[2017.05.15-19.37.26:010][702]Cmd: ACTOR DELETE
+[2017.05.15-19.37.26:011][702]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.26:024][702]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.37.26:412][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube59)
+[2017.05.15-19.37.26:707][745]Cmd: DELETE
+[2017.05.15-19.37.26:708][745]Cmd: ACTOR DELETE
+[2017.05.15-19.37.26:709][745]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.26:725][745]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.05.15-19.37.27:170][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube61)
+[2017.05.15-19.37.27:415][791]Cmd: DELETE
+[2017.05.15-19.37.27:415][791]Cmd: ACTOR DELETE
+[2017.05.15-19.37.27:416][791]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.27:429][791]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.37.28:114][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube50)
+[2017.05.15-19.37.28:283][848]Cmd: DELETE
+[2017.05.15-19.37.28:283][848]Cmd: ACTOR DELETE
+[2017.05.15-19.37.28:284][848]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.28:299][848]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.05.15-19.37.28:765][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube29)
+[2017.05.15-19.37.28:944][890]Cmd: DELETE
+[2017.05.15-19.37.28:944][890]Cmd: ACTOR DELETE
+[2017.05.15-19.37.28:945][890]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.28:960][890]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.37.29:324][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube54)
+[2017.05.15-19.37.29:503][925]Cmd: DELETE
+[2017.05.15-19.37.29:503][925]Cmd: ACTOR DELETE
+[2017.05.15-19.37.29:504][925]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.29:517][925]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.37.29:850][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube56)
+[2017.05.15-19.37.30:039][959]Cmd: DELETE
+[2017.05.15-19.37.30:039][959]Cmd: ACTOR DELETE
+[2017.05.15-19.37.30:040][959]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.30:056][959]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.05.15-19.37.30:520][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube31)
+[2017.05.15-19.37.30:625][994]Cmd: DELETE
+[2017.05.15-19.37.30:625][994]Cmd: ACTOR DELETE
+[2017.05.15-19.37.30:626][994]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.30:636][994]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.05.15-19.37.31:210][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube30)
+[2017.05.15-19.37.31:327][ 39]Cmd: DELETE
+[2017.05.15-19.37.31:327][ 39]Cmd: ACTOR DELETE
+[2017.05.15-19.37.31:328][ 39]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.31:338][ 39]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.05.15-19.37.32:005][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube53)
+[2017.05.15-19.37.32:185][ 94]Cmd: DELETE
+[2017.05.15-19.37.32:186][ 94]Cmd: ACTOR DELETE
+[2017.05.15-19.37.32:186][ 94]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.32:201][ 94]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.05.15-19.37.32:782][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube52)
+[2017.05.15-19.37.32:934][146]Cmd: DELETE
+[2017.05.15-19.37.32:934][146]Cmd: ACTOR DELETE
+[2017.05.15-19.37.32:936][146]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.32:949][146]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.37.33:371][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube28)
+[2017.05.15-19.37.33:559][188]Cmd: DELETE
+[2017.05.15-19.37.33:559][188]Cmd: ACTOR DELETE
+[2017.05.15-19.37.33:560][188]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.33:574][188]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.37.33:958][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube27)
+[2017.05.15-19.37.34:123][224]Cmd: DELETE
+[2017.05.15-19.37.34:123][224]Cmd: ACTOR DELETE
+[2017.05.15-19.37.34:125][224]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.34:138][224]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.37.34:734][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube42)
+[2017.05.15-19.37.34:865][277]Cmd: DELETE
+[2017.05.15-19.37.34:865][277]Cmd: ACTOR DELETE
+[2017.05.15-19.37.34:866][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.34:881][277]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.05.15-19.37.35:316][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube43)
+[2017.05.15-19.37.35:502][318]Cmd: DELETE
+[2017.05.15-19.37.35:502][318]Cmd: ACTOR DELETE
+[2017.05.15-19.37.35:503][318]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.35:516][318]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.37.36:265][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube44)
+[2017.05.15-19.37.36:370][379]Cmd: DELETE
+[2017.05.15-19.37.36:370][379]Cmd: ACTOR DELETE
+[2017.05.15-19.37.36:371][379]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.36:381][379]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.05.15-19.37.37:097][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube55)
+[2017.05.15-19.37.37:237][443]Cmd: DELETE
+[2017.05.15-19.37.37:237][443]Cmd: ACTOR DELETE
+[2017.05.15-19.37.37:238][443]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.37:252][443]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.37.37:782][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube45)
+[2017.05.15-19.37.37:914][492]Cmd: DELETE
+[2017.05.15-19.37.37:914][492]Cmd: ACTOR DELETE
+[2017.05.15-19.37.37:915][492]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.37:928][492]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.37.38:341][528]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube58)
+[2017.05.15-19.37.38:827][560]Cmd: DELETE
+[2017.05.15-19.37.38:827][560]Cmd: ACTOR DELETE
+[2017.05.15-19.37.38:828][560]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.38:840][560]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.39:345][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube46)
+[2017.05.15-19.37.39:477][608]Cmd: DELETE
+[2017.05.15-19.37.39:477][608]Cmd: ACTOR DELETE
+[2017.05.15-19.37.39:477][608]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.39:491][608]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.37.40:307][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube47)
+[2017.05.15-19.37.40:457][685]Cmd: DELETE
+[2017.05.15-19.37.40:458][685]Cmd: ACTOR DELETE
+[2017.05.15-19.37.40:458][685]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.40:472][685]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.37.40:835][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube48)
+[2017.05.15-19.37.41:002][725]Cmd: DELETE
+[2017.05.15-19.37.41:002][725]Cmd: ACTOR DELETE
+[2017.05.15-19.37.41:004][725]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.41:015][725]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.37.41:552][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube49)
+[2017.05.15-19.37.41:677][775]Cmd: DELETE
+[2017.05.15-19.37.41:677][775]Cmd: ACTOR DELETE
+[2017.05.15-19.37.41:678][775]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.41:690][775]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.37.42:185][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube60)
+[2017.05.15-19.37.42:349][828]Cmd: DELETE
+[2017.05.15-19.37.42:349][828]Cmd: ACTOR DELETE
+[2017.05.15-19.37.42:349][828]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.42:363][828]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.37.42:857][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube75)
+[2017.05.15-19.37.42:999][876]Cmd: DELETE
+[2017.05.15-19.37.42:999][876]Cmd: ACTOR DELETE
+[2017.05.15-19.37.43:000][876]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.43:012][876]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.43:416][913]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube63)
+[2017.05.15-19.37.43:598][923]Cmd: DELETE
+[2017.05.15-19.37.43:598][923]Cmd: ACTOR DELETE
+[2017.05.15-19.37.43:598][923]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.43:611][923]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.37.44:160][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube64)
+[2017.05.15-19.37.44:273][978]Cmd: DELETE
+[2017.05.15-19.37.44:273][978]Cmd: ACTOR DELETE
+[2017.05.15-19.37.44:274][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.44:287][978]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.37.44:631][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube76)
+[2017.05.15-19.37.44:757][ 13]Cmd: DELETE
+[2017.05.15-19.37.44:757][ 13]Cmd: ACTOR DELETE
+[2017.05.15-19.37.44:758][ 13]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.44:770][ 13]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.45:175][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube65)
+[2017.05.15-19.37.45:308][ 58]Cmd: DELETE
+[2017.05.15-19.37.45:308][ 58]Cmd: ACTOR DELETE
+[2017.05.15-19.37.45:309][ 58]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.45:322][ 58]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.37.45:687][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube66)
+[2017.05.15-19.37.45:838][102]Cmd: DELETE
+[2017.05.15-19.37.45:838][102]Cmd: ACTOR DELETE
+[2017.05.15-19.37.45:839][102]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.45:851][102]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.37.46:155][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube67)
+[2017.05.15-19.37.46:316][141]Cmd: DELETE
+[2017.05.15-19.37.46:316][141]Cmd: ACTOR DELETE
+[2017.05.15-19.37.46:317][141]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.46:328][141]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.46:707][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube68)
+[2017.05.15-19.37.46:824][186]Cmd: DELETE
+[2017.05.15-19.37.46:824][186]Cmd: ACTOR DELETE
+[2017.05.15-19.37.46:825][186]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.46:835][186]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.05.15-19.37.47:290][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x429)
+[2017.05.15-19.37.48:001][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x429)
+[2017.05.15-19.37.48:532][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube78)
+[2017.05.15-19.37.48:691][354]Cmd: DELETE
+[2017.05.15-19.37.48:691][354]Cmd: ACTOR DELETE
+[2017.05.15-19.37.48:692][354]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.48:703][354]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.49:137][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube79)
+[2017.05.15-19.37.49:404][418]Cmd: DELETE
+[2017.05.15-19.37.49:404][418]Cmd: ACTOR DELETE
+[2017.05.15-19.37.49:405][418]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.49:417][418]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.37.49:698][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube69)
+[2017.05.15-19.37.49:998][470]Cmd: DELETE
+[2017.05.15-19.37.49:998][470]Cmd: ACTOR DELETE
+[2017.05.15-19.37.50:000][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.50:016][470]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.05.15-19.37.50:310][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube81)
+[2017.05.15-19.37.50:533][518]Cmd: DELETE
+[2017.05.15-19.37.50:533][518]Cmd: ACTOR DELETE
+[2017.05.15-19.37.50:533][518]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.50:545][518]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.50:910][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube72)
+[2017.05.15-19.37.51:145][572]Cmd: DELETE
+[2017.05.15-19.37.51:145][572]Cmd: ACTOR DELETE
+[2017.05.15-19.37.51:145][572]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.51:160][572]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.05.15-19.37.51:513][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube80)
+[2017.05.15-19.37.51:679][619]Cmd: DELETE
+[2017.05.15-19.37.51:679][619]Cmd: ACTOR DELETE
+[2017.05.15-19.37.51:680][619]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.51:689][619]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.05.15-19.37.52:161][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube82)
+[2017.05.15-19.37.52:347][685]Cmd: DELETE
+[2017.05.15-19.37.52:347][685]Cmd: ACTOR DELETE
+[2017.05.15-19.37.52:348][685]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.52:360][685]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.52:867][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube71)
+[2017.05.15-19.37.53:050][753]Cmd: DELETE
+[2017.05.15-19.37.53:050][753]Cmd: ACTOR DELETE
+[2017.05.15-19.37.53:051][753]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.53:062][753]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.53:613][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube83)
+[2017.05.15-19.37.53:822][832]Cmd: DELETE
+[2017.05.15-19.37.53:822][832]Cmd: ACTOR DELETE
+[2017.05.15-19.37.53:823][832]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.53:834][832]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.37.56:009][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x319)
+[2017.05.15-19.37.57:518][222]Cmd: DELETE
+[2017.05.15-19.37.57:518][222]Cmd: ACTOR DELETE
+[2017.05.15-19.37.57:519][222]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.57:529][222]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.05.15-19.37.57:884][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x326)
+[2017.05.15-19.37.58:076][275]Cmd: DELETE
+[2017.05.15-19.37.58:076][275]Cmd: ACTOR DELETE
+[2017.05.15-19.37.58:077][275]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.58:086][275]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.05.15-19.37.58:369][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x329)
+[2017.05.15-19.37.58:665][330]Cmd: DELETE
+[2017.05.15-19.37.58:665][330]Cmd: ACTOR DELETE
+[2017.05.15-19.37.58:666][330]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.58:675][330]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.05.15-19.37.59:051][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x328)
+[2017.05.15-19.37.59:164][379]Cmd: DELETE
+[2017.05.15-19.37.59:164][379]Cmd: ACTOR DELETE
+[2017.05.15-19.37.59:165][379]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.37.59:177][379]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-19.38.01:261][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x317)
+[2017.05.15-19.38.02:765][756]Cmd: EDIT COPY
+[2017.05.15-19.38.03:020][784]Cmd: EDIT PASTE
+[2017.05.15-19.38.07:692][266]Cmd: EDIT COPY
+[2017.05.15-19.38.07:917][290]Cmd: EDIT PASTE
+[2017.05.15-19.38.16:351][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x441)
+[2017.05.15-19.38.30:509][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x439)
+[2017.05.15-19.38.31:676][759]Cmd: DELETE
+[2017.05.15-19.38.31:676][759]Cmd: ACTOR DELETE
+[2017.05.15-19.38.31:677][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.38.31:686][759]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.05.15-19.38.32:495][855]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x441)
+[2017.05.15-19.38.33:349][940]Cmd: EDIT COPY
+[2017.05.15-19.38.33:600][968]Cmd: EDIT PASTE
+[2017.05.15-19.39.01:717][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x438)
+[2017.05.15-19.39.05:019][ 97]Cmd: DELETE
+[2017.05.15-19.39.05:019][ 97]Cmd: ACTOR DELETE
+[2017.05.15-19.39.05:020][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.39.05:020][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.39.05:020][ 97]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.39.05:031][ 97]LogEditorActor: Deleted 3 Actors (0.011 secs)
+[2017.05.15-19.39.05:705][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x444)
+[2017.05.15-19.39.06:712][276]Cmd: EDIT COPY
+[2017.05.15-19.39.06:983][306]Cmd: EDIT PASTE
+[2017.05.15-19.39.20:004][611]Cmd: EDIT PASTE
+[2017.05.15-19.39.26:495][303]Cmd: EDIT COPY
+[2017.05.15-19.39.26:723][329]Cmd: EDIT PASTE
+[2017.05.15-19.40.04:264][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x317)
+[2017.05.15-19.40.38:564][193]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.40.40:554][370]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-19.41.08:753][217]Cmd: EDIT COPY
+[2017.05.15-19.41.09:239][266]Cmd: EDIT PASTE
+[2017.05.15-19.41.14:234][778]Cmd: EDIT PASTE
+[2017.05.15-19.41.17:698][119]Cmd: EDIT PASTE
+[2017.05.15-19.41.22:979][618]Cmd: EDIT COPY
+[2017.05.15-19.41.23:247][645]Cmd: EDIT PASTE
+[2017.05.15-19.41.31:397][349]Cmd: EDIT COPY
+[2017.05.15-19.41.31:649][372]Cmd: EDIT PASTE
+[2017.05.15-19.41.41:048][208]Cmd: EDIT COPY
+[2017.05.15-19.41.41:285][230]Cmd: EDIT PASTE
+[2017.05.15-19.41.53:323][412]Cmd: EDIT COPY
+[2017.05.15-19.41.53:553][437]Cmd: EDIT PASTE
+[2017.05.15-19.41.58:539][917]Cmd: EDIT COPY
+[2017.05.15-19.41.58:779][942]Cmd: EDIT PASTE
+[2017.05.15-19.42.12:439][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube19)
+[2017.05.15-19.42.18:015][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube13)
+[2017.05.15-19.42.18:759][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube12)
+[2017.05.15-19.42.24:732][357]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.05.15-19.42.56:583][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x304)
+[2017.05.15-19.42.57:646][604]Cmd: DELETE
+[2017.05.15-19.42.57:646][604]Cmd: ACTOR DELETE
+[2017.05.15-19.42.57:647][604]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.42.57:658][604]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.05.15-19.42.58:166][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x302)
+[2017.05.15-19.42.58:325][662]Cmd: DELETE
+[2017.05.15-19.42.58:325][662]Cmd: ACTOR DELETE
+[2017.05.15-19.42.58:326][662]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.42.58:339][662]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-19.42.59:137][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube40)
+[2017.05.15-19.42.59:789][786]Cmd: DELETE
+[2017.05.15-19.42.59:789][786]Cmd: ACTOR DELETE
+[2017.05.15-19.42.59:790][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.42.59:791][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.42.59:791][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.42.59:791][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.42.59:791][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.42.59:806][786]LogEditorActor: Deleted 5 Actors (0.016 secs)
+[2017.05.15-19.43.00:164][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube34)
+[2017.05.15-19.43.00:596][853]Cmd: DELETE
+[2017.05.15-19.43.00:596][853]Cmd: ACTOR DELETE
+[2017.05.15-19.43.00:597][853]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.43.00:597][853]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.43.00:597][853]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.43.00:597][853]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.43.00:597][853]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-19.43.00:610][853]LogEditorActor: Deleted 5 Actors (0.015 secs)
+[2017.05.15-19.43.01:870][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x318)
+[2017.05.15-19.43.03:195][ 79]Cmd: EDIT COPY
+[2017.05.15-19.43.03:517][106]Cmd: EDIT PASTE
+[2017.05.15-19.43.06:776][388]Cmd: EDIT PASTE
+[2017.05.15-19.43.15:474][186]LogActorFactory: Actor Factory created Shape_Wedge_B
+[2017.05.15-19.43.20:919][677]LogActorFactory: Actor Factory created Shape_Wedge_B
+[2017.05.15-19.44.43:598][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x446)
+[2017.05.15-19.44.55:327][610]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B2)
+[2017.05.15-19.45.04:881][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x326)
+[2017.05.15-19.45.32:790][864]LogSavePackage: Save=222.41ms
+[2017.05.15-19.45.32:790][864]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_Auto23ED6F5724E51B1C74C397D91993A78F1.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.05.15-19.45.32:793][864]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.05.15-19.45.32:795][864]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.258
+[2017.05.15-19.45.32:795][864]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.258
+[2017.05.15-19.47.56:790][139]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x319)
+[2017.05.15-19.47.57:932][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x319)
+[2017.05.15-19.48.05:705][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x318)
+[2017.05.15-19.48.08:326][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x326)
+[2017.05.15-19.48.11:407][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x328)
+[2017.05.15-19.48.15:095][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube19)
+[2017.05.15-19.48.23:834][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube18)
+[2017.05.15-19.48.28:392][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube19)
+[2017.05.15-19.48.31:381][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube18)
+[2017.05.15-19.48.34:748][631]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x317)
+[2017.05.15-19.48.35:524][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x317)
+[2017.05.15-19.48.44:501][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube77)
+[2017.05.15-19.50.23:312][768]Cmd: EDIT COPY
+[2017.05.15-19.50.23:800][812]Cmd: EDIT PASTE
+[2017.05.15-19.52.02:084][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B2)
+[2017.05.15-19.52.45:418][681]Cmd: EDIT COPY
+[2017.05.15-19.52.45:657][700]Cmd: EDIT PASTE
+[2017.05.15-19.53.20:619][447]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Shape_Cube82)
+[2017.05.15-19.53.21:703][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube82)
+[2017.05.15-19.53.22:834][624]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Shape_Wedge_B3)
+[2017.05.15-19.53.23:631][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B3)
+[2017.05.15-19.53.25:678][835]Cmd: MODE GRID=0
+[2017.05.15-19.54.08:326][304]LogSavePackage: Save=245.25ms
+[2017.05.15-19.54.08:326][304]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMapAD7086834A1BA5579EB3D09929749F9D.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.05.15-19.54.08:341][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.05.15-19.54.09:049][304]LogSavePackage: Save=500.15ms
+[2017.05.15-19.54.09:049][304]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltData2FCDB7C84C0DCE09FC90CB9189124411.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.05.15-19.54.09:053][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.05.15-19.56.17:505][833]MapCheck: New page: Map Check
+[2017.05.15-19.56.17:748][833]LightingResults: New page: Lighting Build - May 15, 2017, 11:56:17 PM
+[2017.05.15-19.56.18:197][833]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.15-19.56.18:343][833]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.15-19.56.18:448][833]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.15-19.56.21:519][833]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.05.15-19.56.21:595][833]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:8008
+
+Server stack trace: 
+   à System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   à System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   à System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   à System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   à System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   à System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   à System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   à System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   à NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   à NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.05.15-19.56.26:792][833]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.15-19.56.26:793][833]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1696
+[2017.05.15-19.56.31:723][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.15-19.56.31:723][833]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.15-19.56.31:723][833]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.15-19.56.31:723][833]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.15-19.56.31:723][833]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.15-19.56.32:622][833]LogEditorBuildUtils: Build time 0:15
+[2017.05.15-19.56.32:734][834]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2017.05.15-19.56.32:765][834]LogTemp:Display: Added material ShaderMap 0x000002444782CF00 with Material 0x0000024446BBA200 to ShaderMapsBeingCompiled
+[2017.05.15-19.56.32:812][834]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Metal_Steel, GameThreadShaderMap 0x000002444782CF00
+[2017.05.15-19.56.32:814][834]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling. 
+[2017.05.15-19.56.32:815][834]LogTemp:Display: Added material ShaderMap 0x000002443E710F00 with Material 0x0000024446BB9600 to ShaderMapsBeingCompiled
+[2017.05.15-19.56.32:819][834]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Metal_Steel, GameThreadShaderMap 0x000002443E710F00
+[2017.05.15-19.56.33:606][835]LogTemp:Display: Finished compile of shader map 0x000002443E710F00
+[2017.05.15-19.56.33:606][835]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Metal_Steel complete, GameThreadShaderMap 0x000002443E710F00, marking material FLightmassMaterialRenderer M_Metal_Steel as finished
+[2017.05.15-19.56.33:606][835]LogTemp:Display: Marking material as finished 0x0000024446BB9600
+[2017.05.15-19.56.33:621][835]LogTemp:Display: Finished compile of shader map 0x000002444782CF00
+[2017.05.15-19.56.33:621][835]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Metal_Steel complete, GameThreadShaderMap 0x000002444782CF00, marking material FLightmassMaterialRenderer M_Metal_Steel as finished
+[2017.05.15-19.56.33:621][835]LogTemp:Display: Marking material as finished 0x0000024446BBA200
+[2017.05.15-19.56.44:938][870]Job is a success!
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 64X32) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64) - 219 MB total VRAM
+[2017.05.15-19.56.47:128][871]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64) - 219 MB total VRAM
+[2017.05.15-19.56.47:328][871]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 32X32) - 219 MB total VRAM
+[2017.05.15-19.56.47:328][871]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X256) - 219 MB total VRAM
+[2017.05.15-19.56.47:452][871]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024) - 219 MB total VRAM
+[2017.05.15-19.56.47:901][871]Lightmass on TYDYUS-PC: 11.6 sec total, 384 ms importing, 43 ms setup, 977 ms photons, 10.0 sec processing, 0 ms extra exporting [195/195 mappings]. Threads: 1:10 min total, 43.8 sec processing.
+[2017.05.15-19.56.47:988][871]LogStaticLightingSystem: Illumination: 29.9 sec (1.45 sec encoding lightmaps, 322 ms encoding shadowmaps)
+[2017.05.15-19.56.47:988][871]LogStaticLightingSystem: Lightmap texture memory:  8.0 MB (8.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2017.05.15-19.56.47:988][871]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.05.15-19.56.48:693][871]DumpUnbuiltLightIteractions
+[2017.05.15-19.56.48:693][871]Lights with unbuilt interactions: 0
+[2017.05.15-19.56.48:693][871]
+[2017.05.15-19.56.48:693][871]Primitives with unbuilt interactions: 0
+[2017.05.15-19.56.48:734][872]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.15-19.56.48:734][872]MapCheck: New page: FirstPersonExampleMap - May 15, 2017, 11:56:48 PM
+[2017.05.15-19.56.49:052][872]MapCheck:Warning: Warning Floor_400x425 Floor_400x425 is in the same location as Floor_400x428 
+[2017.05.15-19.56.49:052][872]MapCheck:Warning: Warning Floor_400x428 Floor_400x428 is in the same location as Floor_400x425 
+[2017.05.15-19.56.49:153][872]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 418.864ms to complete.
+[2017.05.15-19.58.16:521][884]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-19.58.16:558][884]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.15-19.58.16:567][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-19.58.16:616][884]PIE: New page: PIE session: FirstPersonExampleMap (May 15, 2017, 11:58:16 PM)
+[2017.05.15-19.58.16:651][884]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.15-19.58.16:805][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153765s)
+[2017.05.15-19.58.16:806][884]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.15-19.58.16:806][884]LogPlayLevel: PIE: World Init took: (0.001519s)
+[2017.05.15-19.58.16:820][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.174492s)
+[2017.05.15-19.58.16:854][884]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.15-19.58.16:860][884]LogInit: FAudioDevice initialized.
+[2017.05.15-19.58.17:010][884]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.15-19.58.17:146][884]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.15-21.58.17
+[2017.05.15-19.58.17:202][884]LogWorld: Bringing up level for play took: 0.073155
+[2017.05.15-19.58.17:444][884]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2017.05.15-19.58.17:490][884]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.281
+[2017.05.15-19.58.17:490][884]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.15-19.59.00:665][876]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.15-19.59.00:832][876]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.15-19.59.32:194][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube6)
+[2017.05.15-19.59.37:246][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube62)
+[2017.05.15-19.59.46:857][639]Cmd: EDIT COPY
+[2017.05.15-19.59.47:093][664]Cmd: EDIT PASTE
+[2017.05.15-19.59.56:631][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube6)
+[2017.05.15-20.00.17:882][678]LogSavePackage: Save=314.55ms
+[2017.05.15-20.00.17:882][678]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap63D201F541406355A0363BB931DFC60E.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.05.15-20.00.17:889][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.05.15-20.00.18:447][678]LogSavePackage: Save=360.43ms
+[2017.05.15-20.00.18:447][678]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltDataD6B032B0411B30A0EEF656850188F753.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.05.15-20.00.18:453][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.05.15-20.03.36:785][ 42]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Shape_Cube3)
+[2017.05.15-20.03.38:005][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube3)
+[2017.05.15-20.04.02:111][228]LogActorFactory: Actor Factory created SM_Chair
+[2017.05.15-20.04.02:929][282]LogActorFactory: Actor Factory created SM_Chair
+[2017.05.15-20.04.12:718][242]Cmd: EDIT COPY
+[2017.05.15-20.04.12:952][266]Cmd: EDIT PASTE
+[2017.05.15-20.04.18:779][878]Cmd: EDIT COPY
+[2017.05.15-20.04.19:014][904]Cmd: EDIT PASTE
+[2017.05.15-20.04.36:200][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair2)
+[2017.05.15-20.04.53:142][302]LogActorFactory: Actor Factory created SM_GlassWindow
+[2017.05.15-20.04.53:861][369]LogActorFactory: Actor Factory created SM_GlassWindow
+[2017.05.15-20.05.46:537][643]Cmd: EDIT COPY
+[2017.05.15-20.05.46:835][674]Cmd: EDIT PASTE
+[2017.05.15-20.06.26:651][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube67)
+[2017.05.15-20.06.29:284][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_GlassWindow2)
+[2017.05.15-20.07.00:726][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x316)
+[2017.05.15-20.09.53:079][694]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-20.09.54:610][838]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-20.10.05:533][988]Cmd: MODE GRID=1
+[2017.05.15-20.10.51:125][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube92)
+[2017.05.15-20.11.19:127][626]LogActorFactory: Actor Factory created Shape_Cone
+[2017.05.15-20.11.21:414][836]LogActorFactory: Actor Factory created Shape_Cone
+[2017.05.15-20.11.33:439][ 63]Cmd: EDIT COPY
+[2017.05.15-20.11.33:736][ 93]Cmd: EDIT PASTE
+[2017.05.15-20.12.20:520][492]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Shape_Cube2)
+[2017.05.15-20.12.24:357][828]Cmd: MODE GRID=0
+[2017.05.15-20.12.46:948][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube15)
+[2017.05.15-20.12.54:562][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube37)
+[2017.05.15-20.12.55:849][842]Cmd: EDIT COPY
+[2017.05.15-20.12.56:385][895]Cmd: EDIT PASTE
+[2017.05.15-20.13.35:797][637]MapCheck: New page: Map Check
+[2017.05.15-20.13.35:812][637]LightingResults: New page: Lighting Build - May 16, 2017, 12:13:35 AM
+[2017.05.15-20.13.35:823][637]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.15-20.13.35:825][637]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.15-20.13.35:825][637]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.15-20.13.35:826][637]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.15-20.13.35:826][637]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1696
+[2017.05.15-20.13.40:340][637]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.15-20.13.40:340][637]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.15-20.13.40:340][637]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.15-20.13.40:340][637]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.15-20.13.40:340][637]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.15-20.13.40:467][637]LogEditorBuildUtils: Build time 0:04
+[2017.05.15-20.13.40:476][637]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Poured, compiling. 
+[2017.05.15-20.13.40:477][637]LogTemp:Display: Added material ShaderMap 0x000002445CAF5980 with Material 0x0000024407D26E00 to ShaderMapsBeingCompiled
+[2017.05.15-20.13.40:479][637]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Concrete_Poured, GameThreadShaderMap 0x000002445CAF5980
+[2017.05.15-20.13.40:482][637]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Poured, compiling. 
+[2017.05.15-20.13.40:482][637]LogTemp:Display: Added material ShaderMap 0x0000024437B18100 with Material 0x0000024407D27400 to ShaderMapsBeingCompiled
+[2017.05.15-20.13.40:485][637]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Concrete_Poured, GameThreadShaderMap 0x0000024437B18100
+[2017.05.15-20.13.40:507][638]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Old, compiling. 
+[2017.05.15-20.13.40:508][638]LogTemp:Display: Added material ShaderMap 0x00000244522BA780 with Material 0x0000024438A1F700 to ShaderMapsBeingCompiled
+[2017.05.15-20.13.40:510][638]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Brick_Clay_Old, GameThreadShaderMap 0x00000244522BA780
+[2017.05.15-20.13.40:514][638]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Old, compiling. 
+[2017.05.15-20.13.40:515][638]LogTemp:Display: Added material ShaderMap 0x000002445103A080 with Material 0x0000024438A1D000 to ShaderMapsBeingCompiled
+[2017.05.15-20.13.40:518][638]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Brick_Clay_Old, GameThreadShaderMap 0x000002445103A080
+[2017.05.15-20.13.40:543][639]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.05.15-20.13.40:544][639]LogTemp:Display: Added material ShaderMap 0x000002445103B580 with Material 0x000002445CA1C100 to ShaderMapsBeingCompiled
+[2017.05.15-20.13.40:548][639]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Chair, GameThreadShaderMap 0x000002445103B580
+[2017.05.15-20.13.40:551][639]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2017.05.15-20.13.40:553][639]LogTemp:Display: Added material ShaderMap 0x00000244511B3900 with Material 0x000002445CA1CA00 to ShaderMapsBeingCompiled
+[2017.05.15-20.13.40:557][639]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Chair, GameThreadShaderMap 0x00000244511B3900
+[2017.05.15-20.13.40:582][640]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2017.05.15-20.13.40:583][640]LogTemp:Display: Added material ShaderMap 0x00000244511B0B80 with Material 0x00000244274F5C00 to ShaderMapsBeingCompiled
+[2017.05.15-20.13.40:586][640]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Glass, GameThreadShaderMap 0x00000244511B0B80
+[2017.05.15-20.13.40:589][640]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2017.05.15-20.13.40:657][640]LogTemp:Display: Added material ShaderMap 0x0000024451D60F00 with Material 0x00000244274F5900 to ShaderMapsBeingCompiled
+[2017.05.15-20.13.40:659][640]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer M_Glass, GameThreadShaderMap 0x0000024451D60F00
+[2017.05.15-20.13.41:996][641]LogTemp:Display: Finished compile of shader map 0x00000244522BA780
+[2017.05.15-20.13.41:996][641]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Brick_Clay_Old complete, GameThreadShaderMap 0x00000244522BA780, marking material FLightmassMaterialRenderer M_Brick_Clay_Old as finished
+[2017.05.15-20.13.41:996][641]LogTemp:Display: Marking material as finished 0x0000024438A1F700
+[2017.05.15-20.13.41:998][641]LogTemp:Display: Finished compile of shader map 0x000002445103A080
+[2017.05.15-20.13.41:998][641]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Brick_Clay_Old complete, GameThreadShaderMap 0x000002445103A080, marking material FLightmassMaterialRenderer M_Brick_Clay_Old as finished
+[2017.05.15-20.13.41:998][641]LogTemp:Display: Marking material as finished 0x0000024438A1D000
+[2017.05.15-20.13.42:001][641]LogTemp:Display: Finished compile of shader map 0x000002445103B580
+[2017.05.15-20.13.42:001][641]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Chair complete, GameThreadShaderMap 0x000002445103B580, marking material FLightmassMaterialRenderer M_Chair as finished
+[2017.05.15-20.13.42:001][641]LogTemp:Display: Marking material as finished 0x000002445CA1C100
+[2017.05.15-20.13.42:003][641]LogTemp:Display: Finished compile of shader map 0x000002445CAF5980
+[2017.05.15-20.13.42:003][641]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Concrete_Poured complete, GameThreadShaderMap 0x000002445CAF5980, marking material FLightmassMaterialRenderer M_Concrete_Poured as finished
+[2017.05.15-20.13.42:003][641]LogTemp:Display: Marking material as finished 0x0000024407D26E00
+[2017.05.15-20.13.42:004][641]LogTemp:Display: Finished compile of shader map 0x0000024437B18100
+[2017.05.15-20.13.42:004][641]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Concrete_Poured complete, GameThreadShaderMap 0x0000024437B18100, marking material FLightmassMaterialRenderer M_Concrete_Poured as finished
+[2017.05.15-20.13.42:004][641]LogTemp:Display: Marking material as finished 0x0000024407D27400
+[2017.05.15-20.13.42:006][641]LogTemp:Display: Finished compile of shader map 0x00000244511B3900
+[2017.05.15-20.13.42:006][641]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Chair complete, GameThreadShaderMap 0x00000244511B3900, marking material FLightmassMaterialRenderer M_Chair as finished
+[2017.05.15-20.13.42:006][641]LogTemp:Display: Marking material as finished 0x000002445CA1CA00
+[2017.05.15-20.13.42:008][641]LogTemp:Display: Finished compile of shader map 0x00000244511B0B80
+[2017.05.15-20.13.42:008][641]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Glass complete, GameThreadShaderMap 0x00000244511B0B80, marking material FLightmassMaterialRenderer M_Glass as finished
+[2017.05.15-20.13.42:008][641]LogTemp:Display: Marking material as finished 0x00000244274F5C00
+[2017.05.15-20.13.42:010][641]LogTemp:Display: Finished compile of shader map 0x0000024451D60F00
+[2017.05.15-20.13.42:010][641]LogTemp:Display: Shader map FLightmassMaterialRenderer M_Glass complete, GameThreadShaderMap 0x0000024451D60F00, marking material FLightmassMaterialRenderer M_Glass as finished
+[2017.05.15-20.13.42:010][641]LogTemp:Display: Marking material as finished 0x00000244274F5900
+[2017.05.15-20.13.53:617][680]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.15-20.13.53:617][680]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.15-20.13.53:946][681]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.15-20.13.53:946][681]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.15-20.13.54:611][683]Job is a success!
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 64X32) - 277 MB total VRAM
+[2017.05.15-20.13.56:606][684]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 64X64) - 277 MB total VRAM
+[2017.05.15-20.13.56:607][684]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 64X64) - 277 MB total VRAM
+[2017.05.15-20.13.56:807][684]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 32X32) - 277 MB total VRAM
+[2017.05.15-20.13.56:807][684]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 1024X256) - 277 MB total VRAM
+[2017.05.15-20.13.56:912][684]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.13.57:090][684]Lightmass on TYDYUS-PC: 11.9 sec total, 218 ms importing, 61 ms setup, 1.09 sec photons, 10.4 sec processing, 0 ms extra exporting [213/213 mappings]. Threads: 1:12 min total, 46.4 sec processing.
+[2017.05.15-20.13.57:121][684]LogStaticLightingSystem: Illumination: 20.9 sec (1.38 sec encoding lightmaps, 304 ms encoding shadowmaps)
+[2017.05.15-20.13.57:121][684]LogStaticLightingSystem: Lightmap texture memory:  8.0 MB (8.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2017.05.15-20.13.57:121][684]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.05.15-20.13.57:347][684]DumpUnbuiltLightIteractions
+[2017.05.15-20.13.57:347][684]Lights with unbuilt interactions: 0
+[2017.05.15-20.13.57:347][684]
+[2017.05.15-20.13.57:347][684]Primitives with unbuilt interactions: 0
+[2017.05.15-20.13.57:423][685]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.15-20.13.57:423][685]MapCheck: New page: FirstPersonExampleMap - May 16, 2017, 12:13:57 AM
+[2017.05.15-20.13.57:424][685]MapCheck:Warning: Warning Floor_400x425 Floor_400x425 is in the same location as Floor_400x428 
+[2017.05.15-20.13.57:424][685]MapCheck:Warning: Warning Floor_400x428 Floor_400x428 is in the same location as Floor_400x425 
+[2017.05.15-20.13.57:510][685]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 87.518ms to complete.
+[2017.05.15-20.14.03:077][700]LogSavePackage: Save=313.98ms
+[2017.05.15-20.14.03:077][700]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_Auto3BA3585754E7AC13A21CE4482F9E4615B.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2017.05.15-20.14.03:080][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2017.05.15-20.14.03:083][700]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.345
+[2017.05.15-20.14.03:083][700]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.345
+[2017.05.15-20.14.03:087][700]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2017.05.15-20.14.03:087][700]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData]
+[2017.05.15-20.14.03:142][700]LogSavePackage: Save=43.79ms
+[2017.05.15-20.14.03:142][700]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltData_Auto347D012AF4273CF73680071BDEC3402DB.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto3.uasset'
+[2017.05.15-20.14.03:145][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto3.uasset
+[2017.05.15-20.14.03:145][700]LogFileHelpers: Auto-saving content packages took 0.061
+[2017.05.15-20.14.39:943][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x441)
+[2017.05.15-20.14.57:022][749]Cmd: MODE GRID=1
+[2017.05.15-20.14.57:852][834]Cmd: EDIT COPY
+[2017.05.15-20.14.58:185][868]Cmd: EDIT PASTE
+[2017.05.15-20.15.17:525][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B)
+[2017.05.15-20.15.26:412][537]Cmd: MODE GRID=0
+[2017.05.15-20.15.36:907][593]Cmd: MODE GRID=1
+[2017.05.15-20.16.01:692][846]LogActorFactory: Actor Factory created Wall_400x300
+[2017.05.15-20.16.02:937][951]LogActorFactory: Actor Factory created Wall_400x300
+[2017.05.15-20.16.15:480][179]Cmd: EDIT COPY
+[2017.05.15-20.16.15:769][208]Cmd: EDIT PASTE
+[2017.05.15-20.16.29:102][576]Cmd: EDIT COPY
+[2017.05.15-20.16.29:423][613]Cmd: EDIT PASTE
+[2017.05.15-20.16.38:005][445]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x314)
+[2017.05.15-20.16.39:073][554]Cmd: EDIT COPY
+[2017.05.15-20.16.39:344][584]Cmd: EDIT PASTE
+[2017.05.15-20.16.52:068][749]Cmd: EDIT COPY
+[2017.05.15-20.16.52:414][781]Cmd: EDIT PASTE
+[2017.05.15-20.17.20:683][255]Cmd: EDIT COPY
+[2017.05.15-20.17.20:960][279]Cmd: EDIT PASTE
+[2017.05.15-20.17.42:296][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x338)
+[2017.05.15-20.17.43:275][114]Cmd: DELETE
+[2017.05.15-20.17.43:275][114]Cmd: ACTOR DELETE
+[2017.05.15-20.17.43:276][114]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-20.17.43:288][114]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-20.17.45:595][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x334)
+[2017.05.15-20.17.46:581][410]Cmd: DELETE
+[2017.05.15-20.17.46:581][410]Cmd: ACTOR DELETE
+[2017.05.15-20.17.46:582][410]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-20.17.46:595][410]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.05.15-20.17.55:048][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x335)
+[2017.05.15-20.18.02:629][888]Cmd: EDIT COPY
+[2017.05.15-20.18.02:890][909]Cmd: EDIT PASTE
+[2017.05.15-20.18.14:312][808]LogActorFactory: Actor Factory created Floor_400x400
+[2017.05.15-20.18.16:477][997]LogActorFactory: Actor Factory created Floor_400x400
+[2017.05.15-20.18.27:495][954]Cmd: EDIT COPY
+[2017.05.15-20.18.27:734][970]Cmd: EDIT PASTE
+[2017.05.15-20.18.32:017][308]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x463)
+[2017.05.15-20.18.32:728][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x463)
+[2017.05.15-20.18.34:098][463]Cmd: EDIT COPY
+[2017.05.15-20.18.34:343][482]Cmd: EDIT PASTE
+[2017.05.15-20.18.45:320][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x466)
+[2017.05.15-20.18.47:151][495]Cmd: EDIT COPY
+[2017.05.15-20.18.47:351][505]Cmd: EDIT PASTE
+[2017.05.15-20.19.00:832][627]Cmd: EDIT COPY
+[2017.05.15-20.19.01:150][652]Cmd: EDIT PASTE
+[2017.05.15-20.19.13:463][581]Cmd: EDIT COPY
+[2017.05.15-20.19.13:723][600]Cmd: EDIT PASTE
+[2017.05.15-20.19.26:816][673]LogSavePackage: Save=309.89ms
+[2017.05.15-20.19.26:816][673]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap90573F524837956ABC4C568D79827D9B.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.05.15-20.19.26:823][673]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.05.15-20.19.27:251][673]LogSavePackage: Save=360.87ms
+[2017.05.15-20.19.27:251][673]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltData14B70B2E49EA287AED9C419F2E1AE946.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.05.15-20.19.27:257][673]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.05.15-20.19.29:343][846]MapCheck: New page: Map Check
+[2017.05.15-20.19.29:369][846]LightingResults: New page: Lighting Build - May 16, 2017, 12:19:29 AM
+[2017.05.15-20.19.29:381][846]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.15-20.19.29:382][846]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.15-20.19.29:382][846]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.15-20.19.29:383][846]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.15-20.19.29:383][846]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1696
+[2017.05.15-20.19.33:893][846]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.15-20.19.33:893][846]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.15-20.19.33:893][846]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.15-20.19.33:893][846]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.15-20.19.33:893][846]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.15-20.19.34:004][846]LogEditorBuildUtils: Build time 0:04
+[2017.05.15-20.19.48:838][891]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.15-20.19.48:838][891]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.15-20.19.48:838][891]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.15-20.19.48:838][891]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.15-20.19.49:837][894]Job is a success!
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64) - 277 MB total VRAM
+[2017.05.15-20.19.52:476][895]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64) - 277 MB total VRAM
+[2017.05.15-20.19.52:677][895]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 32X32) - 277 MB total VRAM
+[2017.05.15-20.19.52:852][895]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:852][895]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X1024) - 277 MB total VRAM
+[2017.05.15-20.19.52:902][895]Lightmass on TYDYUS-PC: 18.1 sec total, 103 ms importing, 25 ms setup, 1.81 sec photons, 16.1 sec processing, 0 ms extra exporting [265/265 mappings]. Threads: 1:53 min total, 1:16 min processing.
+[2017.05.15-20.19.52:904][895]LogStaticLightingSystem: Illumination: 23.1 sec (1.81 sec encoding lightmaps, 373 ms encoding shadowmaps)
+[2017.05.15-20.19.52:904][895]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 10 textures
+[2017.05.15-20.19.52:904][895]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.05.15-20.19.53:927][895]DumpUnbuiltLightIteractions
+[2017.05.15-20.19.53:927][895]Lights with unbuilt interactions: 0
+[2017.05.15-20.19.53:927][895]
+[2017.05.15-20.19.53:927][895]Primitives with unbuilt interactions: 0
+[2017.05.15-20.19.53:945][896]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.15-20.19.53:945][896]MapCheck: New page: FirstPersonExampleMap - May 16, 2017, 12:19:53 AM
+[2017.05.15-20.19.54:130][896]MapCheck:Warning: Warning Floor_400x425 Floor_400x425 is in the same location as Floor_400x428 
+[2017.05.15-20.19.54:130][896]MapCheck:Warning: Warning Floor_400x428 Floor_400x428 is in the same location as Floor_400x425 
+[2017.05.15-20.19.54:198][896]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 252.386ms to complete.
+[2017.05.15-20.21.20:091][765]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.05.15-20.22.45:180][226]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2017.05.15-20.22.46:432][351]Cmd: EDIT COPY
+[2017.05.15-20.22.46:671][377]Cmd: EDIT PASTE
+[2017.05.15-20.24.03:579][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x423)
+[2017.05.15-20.24.07:124][873]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x302)
+[2017.05.15-20.24.09:623][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x423)
+[2017.05.15-20.24.12:804][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x422)
+[2017.05.15-20.24.19:785][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x423)
+[2017.05.15-20.24.28:212][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B)
+[2017.05.15-20.24.30:484][330]Cmd: EDIT COPY
+[2017.05.15-20.24.30:712][355]Cmd: EDIT PASTE
+[2017.05.15-20.25.34:049][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x423)
+[2017.05.15-20.25.37:491][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Wedge_B4)
+[2017.05.15-20.25.48:954][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x422)
+[2017.05.15-20.25.59:702][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube132)
+[2017.05.15-20.26.05:269][182]Cmd: EDIT COPY
+[2017.05.15-20.26.05:515][207]Cmd: EDIT PASTE
+[2017.05.15-20.26.35:654][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube133)
+[2017.05.15-20.26.41:929][573]Cmd: EDIT COPY
+[2017.05.15-20.26.42:168][597]Cmd: EDIT PASTE
+[2017.05.15-20.26.45:089][868]Cmd: EDIT COPY
+[2017.05.15-20.26.45:324][890]Cmd: EDIT PASTE
+[2017.05.15-20.26.50:065][326]Cmd: EDIT COPY
+[2017.05.15-20.26.50:279][346]Cmd: EDIT PASTE
+[2017.05.15-20.26.56:311][899]Cmd: EDIT COPY
+[2017.05.15-20.26.56:519][919]Cmd: EDIT PASTE
+[2017.05.15-20.27.16:328][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x421)
+[2017.05.15-20.27.23:966][611]Cmd: EDIT COPY
+[2017.05.15-20.27.24:292][644]Cmd: EDIT PASTE
+[2017.05.15-20.27.36:543][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x478)
+[2017.05.15-20.27.37:645][817]Cmd: EDIT COPY
+[2017.05.15-20.27.37:953][847]Cmd: EDIT PASTE
+[2017.05.15-20.28.08:221][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x320)
+[2017.05.15-20.28.09:650][332]Cmd: EDIT COPY
+[2017.05.15-20.28.09:925][358]Cmd: EDIT PASTE
+[2017.05.15-20.28.29:202][111]Cmd: EDIT COPY
+[2017.05.15-20.28.29:435][132]Cmd: EDIT PASTE
+[2017.05.15-20.28.43:502][398]Cmd: EDIT COPY
+[2017.05.15-20.28.43:749][420]Cmd: EDIT PASTE
+[2017.05.15-20.28.59:894][862]Cmd: EDIT COPY
+[2017.05.15-20.29.00:130][883]Cmd: EDIT PASTE
+[2017.05.15-20.29.14:587][141]Cmd: EDIT COPY
+[2017.05.15-20.29.14:822][162]Cmd: EDIT PASTE
+[2017.05.15-20.29.29:314][240]LogActorFactory: Actor Factory created Floor_400x400
+[2017.05.15-20.29.31:771][444]LogActorFactory: Actor Factory created Floor_400x400
+[2017.05.15-20.29.49:204][ 34]Cmd: EDIT COPY
+[2017.05.15-20.29.49:461][ 58]Cmd: EDIT PASTE
+[2017.05.15-20.29.57:935][769]Cmd: EDIT PASTE
+[2017.05.15-20.29.59:676][918]Cmd: TRANSACTION UNDO
+[2017.05.15-20.29.59:676][918]LogEditorTransaction: Undo Paste
+[2017.05.15-20.30.00:868][  7]Cmd: EDIT COPY
+[2017.05.15-20.30.01:217][ 38]Cmd: EDIT PASTE
+[2017.05.15-20.30.10:200][756]LogSavePackage: Save=383.08ms
+[2017.05.15-20.30.10:200][756]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMapD3154EDE488752B0593B7C9E4E7D42E3.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.05.15-20.30.10:207][756]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.05.15-20.30.10:770][756]LogSavePackage: Save=468.23ms
+[2017.05.15-20.30.10:770][756]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltData9962420C45AE998B952677B6563B54A0.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.05.15-20.30.10:776][756]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.05.15-20.30.22:022][808]MapCheck: New page: Map Check
+[2017.05.15-20.30.22:037][808]LightingResults: New page: Lighting Build - May 16, 2017, 12:30:22 AM
+[2017.05.15-20.30.22:048][808]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.15-20.30.22:050][808]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.15-20.30.22:050][808]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.15-20.30.22:051][808]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.15-20.30.22:051][808]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1696
+[2017.05.15-20.30.26:562][808]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.15-20.30.26:562][808]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.15-20.30.26:562][808]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.15-20.30.26:562][808]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.15-20.30.26:562][808]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.15-20.30.26:671][808]LogEditorBuildUtils: Build time 0:04
+[2017.05.15-20.30.44:080][861]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.15-20.30.44:080][861]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.15-20.30.44:080][861]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.15-20.30.44:080][861]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.15-20.30.44:413][862]Job is a success!
+[2017.05.15-20.30.45:042][863]LightingResults:Error: Error PointLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64) - 283 MB total VRAM
+[2017.05.15-20.30.47:057][863]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64) - 283 MB total VRAM
+[2017.05.15-20.30.47:257][863]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 32X32) - 283 MB total VRAM
+[2017.05.15-20.30.47:436][863]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:436][863]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.30.47:486][863]Lightmass on TYDYUS-PC: 20.1 sec total, 229 ms importing, 25 ms setup, 2.33 sec photons, 17.4 sec processing, 0 ms extra exporting [292/292 mappings]. Threads: 2:02 min total, 1:24 min processing.
+[2017.05.15-20.30.47:488][863]LogStaticLightingSystem: Illumination: 25.1 sec (2.01 sec encoding lightmaps, 377 ms encoding shadowmaps)
+[2017.05.15-20.30.47:488][863]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 10 textures
+[2017.05.15-20.30.47:488][863]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.05.15-20.30.47:568][863]DumpUnbuiltLightIteractions
+[2017.05.15-20.30.47:568][863]Lights with unbuilt interactions: 0
+[2017.05.15-20.30.47:569][863]
+[2017.05.15-20.30.47:569][863]Primitives with unbuilt interactions: 0
+[2017.05.15-20.30.47:588][864]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.15-20.30.47:588][864]MapCheck: New page: FirstPersonExampleMap - May 16, 2017, 12:30:47 AM
+[2017.05.15-20.30.47:589][864]MapCheck:Warning: Warning Floor_400x425 Floor_400x425 is in the same location as Floor_400x428 
+[2017.05.15-20.30.47:589][864]MapCheck:Warning: Warning Floor_400x428 Floor_400x428 is in the same location as Floor_400x425 
+[2017.05.15-20.30.47:662][864]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 73.683ms to complete.
+[2017.05.15-20.31.25:122][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube141)
+[2017.05.15-20.31.26:496][ 10]Cmd: EDIT COPY
+[2017.05.15-20.31.26:740][ 38]Cmd: EDIT PASTE
+[2017.05.15-20.32.00:382][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube133)
+[2017.05.15-20.32.15:841][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube146)
+[2017.05.15-20.32.19:733][617]Cmd: DELETE
+[2017.05.15-20.32.19:733][617]Cmd: ACTOR DELETE
+[2017.05.15-20.32.19:734][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-20.32.19:746][617]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-20.32.44:907][601]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.05.15-20.32.50:972][186]Cmd: DELETE
+[2017.05.15-20.32.50:973][186]Cmd: ACTOR DELETE
+[2017.05.15-20.32.51:969][186]LogEditorActor: Deleted Actor: PointLight
+[2017.05.15-20.32.51:981][186]LogEditorActor: Deleted 1 Actors (1.008 secs)
+[2017.05.15-20.32.56:334][690]MapCheck: New page: Map Check
+[2017.05.15-20.32.56:373][690]Cmd: MAP REBUILD ALLVISIBLE
+[2017.05.15-20.32.56:373][690]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.05.15-20.32.56:926][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.05.15-20.32.56:938][690]LogTemp:Display: Added material ShaderMap 0x000002443E5CC480 with Material 0x000002443EC59300 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.56:941][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy WorldGridMaterial, GameThreadShaderMap 0x000002443E5CC480
+[2017.05.15-20.32.56:947][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.05.15-20.32.56:954][690]LogTemp:Display: Added material ShaderMap 0x000002443E5CF900 with Material 0x000002443EC5B100 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.56:955][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, GameThreadShaderMap 0x000002443E5CF900
+[2017.05.15-20.32.56:959][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lamp, compiling. 
+[2017.05.15-20.32.56:960][690]LogTemp:Display: Added material ShaderMap 0x000002443E5CDD00 with Material 0x000002443E541F00 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.56:962][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Lamp, GameThreadShaderMap 0x000002443E5CDD00
+[2017.05.15-20.32.56:965][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, compiling. 
+[2017.05.15-20.32.56:966][690]LogTemp:Display: Added material ShaderMap 0x000002443E5CCF00 with Material 0x000002443E542500 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.56:968][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished, GameThreadShaderMap 0x000002443E5CCF00
+[2017.05.15-20.32.56:972][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Oak, compiling. 
+[2017.05.15-20.32.56:973][690]LogTemp:Display: Added material ShaderMap 0x000002445CCD6B00 with Material 0x000002443E542E00 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.56:976][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Wood_Oak, GameThreadShaderMap 0x000002445CCD6B00
+[2017.05.15-20.32.56:980][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2017.05.15-20.32.56:981][690]LogTemp:Display: Added material ShaderMap 0x000002445CCD5D00 with Material 0x000002443E542200 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.56:984][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Floor, GameThreadShaderMap 0x000002445CCD5D00
+[2017.05.15-20.32.56:988][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, compiling. 
+[2017.05.15-20.32.56:990][690]LogTemp:Display: Added material ShaderMap 0x000002445CCD4B80 with Material 0x00000244089A8400 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.56:993][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker, GameThreadShaderMap 0x000002445CCD4B80
+[2017.05.15-20.32.56:997][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2017.05.15-20.32.56:998][690]LogTemp:Display: Added material ShaderMap 0x000002445CCD6400 with Material 0x00000244089A8D00 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.57:002][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Basic_Wall, GameThreadShaderMap 0x000002445CCD6400
+[2017.05.15-20.32.57:006][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Concrete_Poured, compiling. 
+[2017.05.15-20.32.57:007][690]LogTemp:Display: Added material ShaderMap 0x000002442BD72400 with Material 0x00000244089A9600 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.57:010][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Concrete_Poured, GameThreadShaderMap 0x000002442BD72400
+[2017.05.15-20.32.57:014][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_Old, compiling. 
+[2017.05.15-20.32.57:016][690]LogTemp:Display: Added material ShaderMap 0x000002442BD73C80 with Material 0x00000244089AAB00 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.57:019][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Brick_Clay_Old, GameThreadShaderMap 0x000002442BD73C80
+[2017.05.15-20.32.57:023][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Steel, compiling. 
+[2017.05.15-20.32.57:024][690]LogTemp:Display: Added material ShaderMap 0x000002445C3F3580 with Material 0x000002443EB78A00 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.57:026][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Metal_Steel, GameThreadShaderMap 0x000002445C3F3580
+[2017.05.15-20.32.57:030][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2017.05.15-20.32.57:031][690]LogTemp:Display: Added material ShaderMap 0x000002445C3F3200 with Material 0x000002443EB79600 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.57:035][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Chair, GameThreadShaderMap 0x000002445C3F3200
+[2017.05.15-20.32.57:039][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2017.05.15-20.32.57:040][690]LogTemp:Display: Added material ShaderMap 0x00000244185DDD00 with Material 0x000002443EB79300 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.57:062][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_Glass, GameThreadShaderMap 0x00000244185DDD00
+[2017.05.15-20.32.57:065][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2017.05.15-20.32.57:066][690]LogTemp:Display: Added material ShaderMap 0x000002445CAF4480 with Material 0x000002443EB78400 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.57:068][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy MatineeCam_mat, GameThreadShaderMap 0x000002445CAF4480
+[2017.05.15-20.32.57:071][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FPGun, compiling. 
+[2017.05.15-20.32.57:076][690]LogTemp:Display: Added material ShaderMap 0x000002445CAF7900 with Material 0x000002443EB7A800 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.57:080][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_FPGun, GameThreadShaderMap 0x000002445CAF7900
+[2017.05.15-20.32.57:083][690]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body, compiling. 
+[2017.05.15-20.32.57:088][690]LogTemp:Display: Added material ShaderMap 0x000002445CAF5600 with Material 0x00000244070EDF00 to ShaderMapsBeingCompiled
+[2017.05.15-20.32.57:091][690]LogTemp:Display: Kicking off shader compilation for FDebugViewModeMaterialProxy M_UE4Man_Body, GameThreadShaderMap 0x000002445CAF5600
+[2017.05.15-20.32.57:474][690]LogTemp:Display: Finished compile of shader map 0x000002443E5CDD00
+[2017.05.15-20.32.57:475][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Lamp complete, GameThreadShaderMap 0x000002443E5CDD00, marking material FDebugViewModeMaterialProxy M_Lamp as finished
+[2017.05.15-20.32.57:475][690]LogTemp:Display: Marking material as finished 0x000002443E541F00
+[2017.05.15-20.32.57:499][690]LogTemp:Display: Finished compile of shader map 0x000002443E5CCF00
+[2017.05.15-20.32.57:499][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished complete, GameThreadShaderMap 0x000002443E5CCF00, marking material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Polished as finished
+[2017.05.15-20.32.57:499][690]LogTemp:Display: Marking material as finished 0x000002443E542500
+[2017.05.15-20.32.57:501][690]LogTemp:Display: Finished compile of shader map 0x000002443E5CF900
+[2017.05.15-20.32.57:501][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 complete, GameThreadShaderMap 0x000002443E5CF900, marking material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1 as finished
+[2017.05.15-20.32.57:501][690]LogTemp:Display: Marking material as finished 0x000002443EC5B100
+[2017.05.15-20.32.57:535][690]LogTemp:Display: Finished compile of shader map 0x000002443E5CC480
+[2017.05.15-20.32.57:535][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy WorldGridMaterial complete, GameThreadShaderMap 0x000002443E5CC480, marking material FDebugViewModeMaterialProxy WorldGridMaterial as finished
+[2017.05.15-20.32.57:535][690]LogTemp:Display: Marking material as finished 0x000002443EC59300
+[2017.05.15-20.32.57:625][690]LogTemp:Display: Finished compile of shader map 0x000002445CCD5D00
+[2017.05.15-20.32.57:625][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Floor complete, GameThreadShaderMap 0x000002445CCD5D00, marking material FDebugViewModeMaterialProxy M_Basic_Floor as finished
+[2017.05.15-20.32.57:625][690]LogTemp:Display: Marking material as finished 0x000002443E542200
+[2017.05.15-20.32.57:674][690]LogTemp:Display: Finished compile of shader map 0x000002445CCD6400
+[2017.05.15-20.32.57:674][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Basic_Wall complete, GameThreadShaderMap 0x000002445CCD6400, marking material FDebugViewModeMaterialProxy M_Basic_Wall as finished
+[2017.05.15-20.32.57:674][690]LogTemp:Display: Marking material as finished 0x00000244089A8D00
+[2017.05.15-20.32.57:747][690]LogTemp:Display: Finished compile of shader map 0x000002445CCD6B00
+[2017.05.15-20.32.57:747][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Wood_Oak complete, GameThreadShaderMap 0x000002445CCD6B00, marking material FDebugViewModeMaterialProxy M_Wood_Oak as finished
+[2017.05.15-20.32.57:747][690]LogTemp:Display: Marking material as finished 0x000002443E542E00
+[2017.05.15-20.32.57:783][690]LogTemp:Display: Finished compile of shader map 0x000002445CCD4B80
+[2017.05.15-20.32.57:783][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker complete, GameThreadShaderMap 0x000002445CCD4B80, marking material FDebugViewModeMaterialProxy M_Ceramic_Tile_Checker as finished
+[2017.05.15-20.32.57:783][690]LogTemp:Display: Marking material as finished 0x00000244089A8400
+[2017.05.15-20.32.57:926][690]LogTemp:Display: Finished compile of shader map 0x000002442BD72400
+[2017.05.15-20.32.57:926][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Concrete_Poured complete, GameThreadShaderMap 0x000002442BD72400, marking material FDebugViewModeMaterialProxy M_Concrete_Poured as finished
+[2017.05.15-20.32.57:926][690]LogTemp:Display: Marking material as finished 0x00000244089A9600
+[2017.05.15-20.32.57:984][690]LogTemp:Display: Finished compile of shader map 0x000002442BD73C80
+[2017.05.15-20.32.57:984][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Brick_Clay_Old complete, GameThreadShaderMap 0x000002442BD73C80, marking material FDebugViewModeMaterialProxy M_Brick_Clay_Old as finished
+[2017.05.15-20.32.57:984][690]LogTemp:Display: Marking material as finished 0x00000244089AAB00
+[2017.05.15-20.32.58:007][690]LogTemp:Display: Finished compile of shader map 0x000002445C3F3200
+[2017.05.15-20.32.58:007][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Chair complete, GameThreadShaderMap 0x000002445C3F3200, marking material FDebugViewModeMaterialProxy M_Chair as finished
+[2017.05.15-20.32.58:007][690]LogTemp:Display: Marking material as finished 0x000002443EB79600
+[2017.05.15-20.32.58:032][690]LogTemp:Display: Finished compile of shader map 0x000002445C3F3580
+[2017.05.15-20.32.58:032][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Metal_Steel complete, GameThreadShaderMap 0x000002445C3F3580, marking material FDebugViewModeMaterialProxy M_Metal_Steel as finished
+[2017.05.15-20.32.58:032][690]LogTemp:Display: Marking material as finished 0x000002443EB78A00
+[2017.05.15-20.32.58:045][690]LogTemp:Display: Finished compile of shader map 0x00000244185DDD00
+[2017.05.15-20.32.58:045][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Glass complete, GameThreadShaderMap 0x00000244185DDD00, marking material FDebugViewModeMaterialProxy M_Glass as finished
+[2017.05.15-20.32.58:045][690]LogTemp:Display: Marking material as finished 0x000002443EB79300
+[2017.05.15-20.32.58:143][690]LogTemp:Display: Finished compile of shader map 0x000002445CAF4480
+[2017.05.15-20.32.58:144][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy MatineeCam_mat complete, GameThreadShaderMap 0x000002445CAF4480, marking material FDebugViewModeMaterialProxy MatineeCam_mat as finished
+[2017.05.15-20.32.58:144][690]LogTemp:Display: Marking material as finished 0x000002443EB78400
+[2017.05.15-20.32.58:327][690]LogTemp:Display: Finished compile of shader map 0x000002445CAF7900
+[2017.05.15-20.32.58:327][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_FPGun complete, GameThreadShaderMap 0x000002445CAF7900, marking material FDebugViewModeMaterialProxy M_FPGun as finished
+[2017.05.15-20.32.58:327][690]LogTemp:Display: Marking material as finished 0x000002443EB7A800
+[2017.05.15-20.32.58:330][690]LogTemp:Display: Finished compile of shader map 0x000002445CAF5600
+[2017.05.15-20.32.58:330][690]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body complete, GameThreadShaderMap 0x000002445CAF5600, marking material FDebugViewModeMaterialProxy M_UE4Man_Body as finished
+[2017.05.15-20.32.58:330][690]LogTemp:Display: Marking material as finished 0x00000244070EDF00
+[2017.05.15-20.32.58:332][690]TextureStreamingBuild:Display: Compiling optional shaders took 1.419 seconds.
+[2017.05.15-20.32.58:490][690]LogLevel:Display: Export Material TexCoord Scales took 0.158 seconds.
+[2017.05.15-20.32.58:574][690]TextureStreamingBuild:Display: Build Texture Streaming took 0.069 seconds.
+[2017.05.15-20.32.58:593][690]LightingResults: New page: Lighting Build - May 16, 2017, 12:32:58 AM
+[2017.05.15-20.32.58:603][690]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.15-20.32.58:605][690]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.15-20.32.58:605][690]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.15-20.32.58:606][690]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.15-20.32.58:606][690]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1696
+[2017.05.15-20.33.03:134][690]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.15-20.33.03:134][690]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.15-20.33.03:134][690]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.15-20.33.03:134][690]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.15-20.33.03:134][690]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.15-20.33.03:239][690]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.05.15-20.33.03:239][690]MapCheck: New page: FirstPersonExampleMap - May 16, 2017, 12:33:03 AM
+[2017.05.15-20.33.03:240][690]MapCheck:Warning: Warning Floor_400x425 Floor_400x425 is in the same location as Floor_400x428 
+[2017.05.15-20.33.03:240][690]MapCheck:Warning: Warning Floor_400x428 Floor_400x428 is in the same location as Floor_400x425 
+[2017.05.15-20.33.03:278][690]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2017.05.15-20.33.03:358][690]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 118.525ms to complete.
+[2017.05.15-20.33.03:380][690]LogEditorBuildUtils: Build time 0:07
+[2017.05.15-20.33.20:996][743]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.15-20.33.20:996][743]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.15-20.33.20:996][743]LightingResults:Warning: Warning Shape_Cone Object has overlapping UVs.
+[2017.05.15-20.33.20:996][743]LightingResults: Info Shape_Cone Lightmap UV are overlapping by 43.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.15-20.33.21:313][744]Job is a success!
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64) - 283 MB total VRAM
+[2017.05.15-20.33.24:136][745]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64) - 283 MB total VRAM
+[2017.05.15-20.33.24:336][745]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 32X32) - 283 MB total VRAM
+[2017.05.15-20.33.24:511][745]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:511][745]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8, 1024X1024) - 283 MB total VRAM
+[2017.05.15-20.33.24:555][745]LogStaticLightingSystem: Illumination: 25.6 sec (2.05 sec encoding lightmaps, 373 ms encoding shadowmaps)
+[2017.05.15-20.33.24:555][745]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 10 textures
+[2017.05.15-20.33.24:555][745]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.05.15-20.33.25:141][745]DumpUnbuiltLightIteractions
+[2017.05.15-20.33.25:141][745]Lights with unbuilt interactions: 0
+[2017.05.15-20.33.25:141][745]
+[2017.05.15-20.33.25:141][745]Primitives with unbuilt interactions: 0
+[2017.05.15-20.33.25:155][746]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.15-20.33.25:155][746]MapCheck: New page: FirstPersonExampleMap - May 16, 2017, 12:33:25 AM
+[2017.05.15-20.33.25:341][746]MapCheck:Warning: Warning Floor_400x425 Floor_400x425 is in the same location as Floor_400x428 
+[2017.05.15-20.33.25:341][746]MapCheck:Warning: Warning Floor_400x428 Floor_400x428 is in the same location as Floor_400x425 
+[2017.05.15-20.33.25:405][746]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 249.464ms to complete.
+[2017.05.15-20.40.17:962][982]LogSavePackage: Save=456.08ms
+[2017.05.15-20.40.17:962][982]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_Auto4CC4066FB460C00246FAA0EA549F66C88.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2017.05.15-20.40.17:965][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap
+[2017.05.15-20.40.17:968][982]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.490
+[2017.05.15-20.40.17:968][982]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.490
+[2017.05.15-20.40.17:972][982]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2017.05.15-20.40.17:972][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData]
+[2017.05.15-20.40.18:041][982]LogSavePackage: Save=35.00ms
+[2017.05.15-20.40.18:041][982]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltData_Auto48F41661A4DD2186E94526A8B313E288D.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto4.uasset'
+[2017.05.15-20.40.18:043][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto4.uasset
+[2017.05.15-20.40.18:044][982]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.05.15-20.41.16:956][378]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-20.41.16:988][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.15-20.41.16:988][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-20.41.16:988][378]PIE: New page: PIE session: FirstPersonExampleMap (May 16, 2017, 12:41:16 AM)
+[2017.05.15-20.41.16:988][378]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.05.15-20.41.17:040][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051785s)
+[2017.05.15-20.41.17:042][378]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.05.15-20.41.17:043][378]LogPlayLevel: PIE: World Init took: (0.002611s)
+[2017.05.15-20.41.17:043][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.054965s)
+[2017.05.15-20.41.17:064][378]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.15-20.41.17:070][378]LogInit: FAudioDevice initialized.
+[2017.05.15-20.41.17:099][378]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.05.15-20.41.17:113][378]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.05.15-22.41.17
+[2017.05.15-20.41.17:113][378]LogWorld: Bringing up level for play took: 0.012725
+[2017.05.15-20.41.17:115][378]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.906
+[2017.05.15-20.41.17:115][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.15-20.42.02:239][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.15-20.42.02:273][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.05.15-20.42.03:319][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube8)
+[2017.05.15-20.42.04:700][873]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.15-20.42.07:790][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube9)
+[2017.05.15-20.42.15:011][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x428)
+[2017.05.15-20.42.22:810][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube8)
+[2017.05.15-20.42.25:971][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube9)
+[2017.05.15-20.42.41:217][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube10)
+[2017.05.15-20.42.51:047][815]Cmd: EDIT COPY
+[2017.05.15-20.42.51:302][842]Cmd: EDIT PASTE
+[2017.05.15-20.43.05:847][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube10)
+[2017.05.15-20.43.16:236][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube142)
+[2017.05.15-20.43.28:448][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube39)
+[2017.05.15-20.43.32:220][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube9)
+[2017.05.15-20.43.41:313][  1]LogSavePackage: Save=395.78ms
+[2017.05.15-20.43.41:313][  1]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap93C3A50940490D3CAC66CDAA1BF8E065.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.05.15-20.43.41:326][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.05.15-20.43.41:874][  1]LogSavePackage: Save=505.67ms
+[2017.05.15-20.43.41:874][  1]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltData016A98DF4EF606FABD2E7884C7E7632E.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.05.15-20.43.41:880][  1]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.05.15-20.45.05:600][323]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-20.45.09:791][722]LogActorFactory: Actor Factory created Shape_Cube
+[2017.05.15-20.45.27:150][471]Cmd: EDIT COPY
+[2017.05.15-20.45.27:385][494]Cmd: EDIT PASTE
+[2017.05.15-20.45.45:201][307]LogActorFactory: Actor Factory created Shape_Sphere
+[2017.05.15-20.45.46:339][412]LogActorFactory: Actor Factory created Shape_Sphere
+[2017.05.15-20.45.48:165][552]LogActorFactory: Actor Factory created Shape_WideCapsule
+[2017.05.15-20.45.52:444][932]LogActorFactory: Actor Factory created Shape_WideCapsule
+[2017.05.15-20.46.21:693][519]LogActorFactory: Actor Factory created Shape_Torus
+[2017.05.15-20.46.24:642][770]LogActorFactory: Actor Factory created Shape_Torus
+[2017.05.15-20.46.46:985][ 85]Cmd: DELETE
+[2017.05.15-20.46.46:985][ 85]Cmd: ACTOR DELETE
+[2017.05.15-20.46.46:987][ 85]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-20.46.47:002][ 85]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.05.15-20.46.52:186][607]LogActorFactory: Actor Factory created Shape_Pipe
+[2017.05.15-20.46.56:972][125]LogActorFactory: Actor Factory created Shape_Pipe
+[2017.05.15-20.47.07:524][213]Cmd: DELETE
+[2017.05.15-20.47.07:524][213]Cmd: ACTOR DELETE
+[2017.05.15-20.47.07:525][213]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.15-20.47.07:537][213]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.05.15-20.47.27:827][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube40)
+[2017.05.15-20.47.29:931][792]Cmd: EDIT COPY
+[2017.05.15-20.47.30:284][830]Cmd: EDIT PASTE
+[2017.05.15-20.47.51:769][ 40]Cmd: EDIT COPY
+[2017.05.15-20.47.52:018][ 67]Cmd: EDIT PASTE
+[2017.05.15-20.47.56:204][500]Cmd: EDIT PASTE
+[2017.05.15-20.48.37:469][980]LogSavePackage: Save=388.86ms
+[2017.05.15-20.48.37:469][980]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap14C2DDAD46490528581C84B50D5845DC.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.05.15-20.48.37:475][980]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.05.15-20.48.38:041][980]LogSavePackage: Save=513.58ms
+[2017.05.15-20.48.38:041][980]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltData6D647ED648A618D7BF91AFACE2F3F2B6.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.05.15-20.48.38:044][980]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.05.15-20.48.40:106][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shape_Cube89)
+[2017.05.15-20.49.37:641][366]LogSavePackage: Save=391.16ms
+[2017.05.15-20.49.37:641][366]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap4BE81CD94D62F72BEF5170A3196353E8.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.05.15-20.49.37:645][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.05.15-20.49.38:192][366]LogSavePackage: Save=519.71ms
+[2017.05.15-20.49.38:192][366]LogSavePackage: Moving '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Saved/FirstPersonExampleMap_BuiltData4B7FF18646AA97C6A12630B8EBAB4E95.tmp' to '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.05.15-20.49.38:196][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.05.15-20.49.40:012][500]Cmd: QUIT_EDITOR
+[2017.05.15-20.49.40:273][500]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.15-20.49.40:306][500]LogExit: Preparing to exit.
+[2017.05.15-20.49.41:210][500]LogDirectoryWatcher: A directory notification for 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/' was aborted.
+[2017.05.15-20.49.41:325][500]LogExit: Editor shut down
+[2017.05.15-20.49.41:326][500]LogExit: Transaction tracking system shut down
+[2017.05.15-20.49.41:449][500]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.15-20.49.41:449][500]LogExit: Object subsystem successfully closed.
+[2017.05.15-20.49.41:471][500]LogD3D11RHI: Shutdown
+[2017.05.15-20.49.41:471][500]LogD3D11RHI: CleanupD3DDevice
+[2017.05.15-20.49.41:636][500]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.15-20.49.41:675][500]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (502)
+[2017.05.15-20.49.41:675][500]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.05.15-20.49.41:702][500]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.15-20.49.41:702][500]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.15-20.49.41:702][500]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.15-20.49.41:702][500]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.15-20.49.41:708][500]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.15-20.49.41:725][500]LogDirectoryWatcher: A directory notification for 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/Collections/' was aborted.
+[2017.05.15-20.49.41:725][500]LogDirectoryWatcher: A directory notification for 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Content/Developers/Tydyus/Collections/' was aborted.
+[2017.05.15-20.49.41:725][500]LogDirectoryWatcher: A directory notification for 'C:/Users/Tydyus/Documents/Unreal Projects/albinos/Saved/Collections/' was aborted.
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.15-20.49.41:725][500]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.15-20.49.41:726][500]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.15-20.49.41:928][500]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.15-20.49.41:929][500]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.15-20.49.41:929][500]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.15-20.49.41:929][500]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.15-20.49.41:929][500]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.15-20.49.41:929][500]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.15-20.49.41:929][500]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.15-20.49.41:929][500]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.15-20.49.41:971][500]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.15-20.49.41:971][500]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.15-20.49.41:971][500]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.15-20.49.41:971][500]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.15-20.49.41:971][500]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.15-20.49.41:971][500]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.15-20.49.41:971][500]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.15-20.49.41:971][500]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.15-20.49.41:971][500]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.15-20.49.41:972][500]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.15-20.49.42:120][500]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.15-20.49.42:121][500]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.15-20.49.42:121][500]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.15-20.49.42:121][500]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.15-20.49.42:121][500]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.15-20.49.42:121][500]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.15-20.49.42:121][500]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.15-20.49.42:121][500]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.15-20.49.42:121][500]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.15-20.49.42:123][500]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.15-20.49.42:123][500]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.15-20.49.42:123][500]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.15-20.49.42:124][500]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.15-20.49.42:126][500]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.15-20.49.42:126][500]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.15-20.49.42:126][500]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.15-20.49.42:126][500]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.15-20.49.42:227][500]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.15-20.49.42:327][500]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.15-20.49.42:328][500]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.15-20.49.42:328][500]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.15-20.49.42:328][500]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.15-20.49.42:328][500]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.15-20.49.42:328][500]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.15-20.49.42:328][500]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.15-20.49.42:328][500]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.15-20.49.42:328][500]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.15-20.49.42:332][500]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.15-20.49.42:332][500]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.15-20.49.42:332][500]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.15-20.49.42:332][500]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.15-20.49.42:332][500]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.15-20.49.42:332][500]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.15-20.49.42:457][500]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.15-20.49.42:457][500]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Tydyus/Documents/Unreal Projects/albinos/Content/' was aborted.
+[2017.05.15-20.49.42:457][500]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.15-20.49.42:457][500]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.15-20.49.42:461][500]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.15-20.49.42:461][500]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.15-20.49.42:461][500]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.15-20.49.42:461][500]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.15-20.49.42:461][500]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.15-20.49.42:461][500]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.15-20.49.42:461][500]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.15-20.49.42:461][500]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.15-20.49.42:527][500]LogDerivedDataCache: Shutdown
+[2017.05.15-20.49.42:527][500]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.15-20.49.42:527][500]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.15-20.49.42:527][500]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.15-20.49.42:527][500]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.15-20.49.42:527][500]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.15-20.49.42:527][500]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.15-20.49.42:527][500]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.15-20.49.42:528][500]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.15-20.49.42:529][500]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.15-20.49.42:529][500]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.15-20.49.42:529][500]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.15-20.49.42:529][500]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.15-20.49.42:529][500]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.15-20.49.42:529][500]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.15-20.49.42:529][500]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.15-20.49.42:529][500]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.15-20.49.42:529][500]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.15-20.49.42:529][500]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B236BAEB1-4803-501C-C0A3-37B6E0CF4BD3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=acddcb364ceea6ec6827288ee666ebd7%7C39fcf2a1771c4177904b4f0f03944ffb%7Ca88ba6cf-ff0a-40cb-ab69-9dea0f3848d1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.15-20.49.42:533][500]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.15-20.49.42:535][500]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.15-20.49.42:535][500]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.15-20.49.42:535][500]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.15-20.49.42:535][500]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.15-20.49.42:535][500]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.15-20.49.42:539][500]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.15-20.49.42:541][500]LogExit: Exiting.
+[2017.05.15-20.49.42:559][500]Log file closed, 05/15/17 22:49:42
